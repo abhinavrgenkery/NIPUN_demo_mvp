@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-dim": "#ccdbf3", "on-tertiary-container": "#e69300", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "outline-variant": "#c3c6d0", "on-tertiary-fixed": "#2a1700", "surface": "#f8f9ff", "on-secondary-container": "#00647d", "inverse-surface": "#233144", "surface-container-high": "#dce9ff", "secondary-container": "#8fdfff", "on-error-container": "#93000a", "surface-container-low": "#eff4ff", "secondary-fixed-dim": "#81d1f0", "primary-container": "#123c69", "on-primary-fixed": "#001c39", "secondary": "#006781", "tertiary-fixed-dim": "#ffb95f", "on-primary": "#ffffff", "inverse-on-surface": "#eaf1ff", "surface-container": "#e6eeff", "primary-fixed": "#d4e3ff", "error": "#ba1a1a", "on-primary-fixed-variant": "#214875", "on-surface-variant": "#43474f", "tertiary": "#382000", "on-tertiary-fixed-variant": "#653e00", "on-secondary": "#ffffff", "on-secondary-fixed": "#001f29", "on-error": "#ffffff", "surface-bright": "#f8f9ff", "surface-container-highest": "#d5e3fc", "outline": "#737780", "primary": "#00264b", "on-background": "#0d1c2e", "surface-variant": "#d5e3fc", "tertiary-container": "#553400", "primary-fixed-dim": "#a5c8fe", "on-tertiary": "#ffffff", "surface-tint": "#3c608f", "on-primary-container": "#84a7db", "on-surface": "#0d1c2e", "secondary-fixed": "#b9eaff", "background": "#f8f9ff", "on-secondary-fixed-variant": "#004d62", "tertiary-fixed": "#ffddb8", "inverse-primary": "#a5c8fe" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.5rem", "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-3xl": "4rem", "space-xl": "2rem", "space-md": "1rem", "space-xxs": "0.25rem", "space-sm": "0.75rem", "space-2xl": "3rem", "gutter-desktop": "1.5rem", "container-max": "80rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "body-md": [ "Inter" ], "label-caps": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "display-lg": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "headline-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" } ], "headline-xl-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-md": [ "22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-lg flex items-center justify-between bg-surface-container-low"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #123c69
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UfoJTlE-YL4YOFG0z3SJRxGJXcPN9nmwfQCFYGK67Bsf0WigkhNSPrLcW0PJBTbsW0L4Zf9NpFe4vaGdJjb75Eu6g3vxZzH5BHzAwXvfDDgctteDow0kUc5XMYeTliV2AMrRev-t0rTaCq8BDmL3bUGgf7198e8AEf1kF-4MgSaoeXfWwXz97pSuo71ChRDYKpPX27CWXjSYPBRbRA2Bua9zn4zN95JbmEpnlNuRnz5fkGOX8E1U_WB83W"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">NIPUN</span><span class="font-label-caps text-label-caps text-secondary uppercase">Enterprise Portal</span></div></div></div><div class="px-space-md py-space-sm bg-surface-container-low"><div class="flex items-center justify-between px-space-sm py-space-xs rounded-xl bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs min-w-0"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span><div class="truncate"><p class="font-label-md text-label-md text-on-surface truncate">TCS / Talent Hub</p><p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Accredited Employer</p></div></div><span class="material-symbols-outlined text-on-surface-variant text-[18px]">unfold_more</span></div></div><div class="px-space-md pt-space-md pb-space-xs"><p class="px-space-sm font-label-caps text-label-caps text-outline uppercase tracking-wider">Enterprise Recruitment</p></div><nav class="flex-1 px-space-md space-y-space-xxs overflow-y-auto" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard-overview" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">grid_view</span><span>Dashboard / Overview</span></div></a><a aria-current="page" class="flex items-center justify-between px-space-sm py-space-xs transition-colors bg-primary-container text-on-primary font-label-lg rounded-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]" data-path="active-postings" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">work_outline</span><span>Active Postings</span></div><span class="px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container">12</span></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="applicant-pipeline" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">assignment_ind</span><span>Applicant Pipeline</span></div><span class="w-2 h-2 rounded-full bg-secondary"></span></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="talent-scout-skill-passports" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">badge</span><span>Talent Scout &amp; Passports</span></div></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="campus-drives-cohorts" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">school</span><span>Campus Drives &amp; Cohorts</span></div></a><div class="pt-space-md pb-space-xs"><p class="px-space-sm font-label-caps text-label-caps text-outline uppercase tracking-wider">Governance &amp; Integrations</p></div><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="enterprise-settings-api" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">tune</span><span>Enterprise Settings &amp; API</span></div></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="compliance-audit-log" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">policy</span><span>Compliance &amp; Verification</span></div></a></nav><div class="p-space-md bg-surface-container-low"><div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs mb-space-xxs"><span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span><span class="font-label-caps text-label-caps text-primary uppercase">MoE &amp; AICTE Linked</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">National Placement Node: #DL-2024-TCS</p></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)] px-space-xl"><div class="h-16 w-full flex items-center justify-between gap-space-lg"><div class="flex-1 max-w-lg"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-space-sm text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest transition-all" placeholder="Search verified candidates, skill tags, or job IDs..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-space-xs h-10 px-space-md bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-xl transition-all shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-[18px]">add</span><span>Post New Role</span></button><div class="relative"><button class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error"></span></button></div><div class="h-8 w-[1px] bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:block"><p class="font-label-lg text-label-lg text-on-surface leading-tight">Rajesh Sundaram</p><p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">Head of Campus Hiring</p></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full space-y-space-lg pb-space-3xl">
+<!-- Top Navigation / Breadcrumb -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<nav class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="hover:text-primary transition-colors cursor-pointer">Enterprise Portal</span>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="hover:text-primary transition-colors cursor-pointer">Active Postings</span>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="text-primary font-semibold">Create New Opportunity</span>
+</nav>
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase text-secondary tracking-wider bg-surface-container-high px-space-sm py-1 rounded-full">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+<span>AICTE &amp; NSQF Alignment Node: #NIPUN-REC-2025</span>
+</div>
+</div>
+<!-- Page Header & Action Bar -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs">
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Publish Verified Opportunity</h1>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase">Enterprise Fast-Track</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        Define competency benchmarks, stipend/salary ranges, and NSQF validation parameters to match pre-assessed student cohorts directly with zero pipeline leakage.
+      </p>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<button class="h-10 px-space-md bg-surface-container-low hover:bg-surface-container-high text-primary font-label-lg text-label-lg rounded-xl transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+<span>Save as Draft</span>
+</button>
+<button class="h-10 px-space-md bg-surface-container text-primary hover:bg-surface-container-highest font-label-lg text-label-lg rounded-xl transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Preview Post</span>
+</button>
+</div>
+</div>
+<!-- Main Layout Grid: Form (Col 8) + Cohort Reach Analytics Widget (Col 4) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Primary Form Column -->
+<div class="lg:col-span-8 space-y-space-lg">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-xl space-y-space-2xl">
+<!-- 1. Opportunity Classification -->
+<section class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 01 • Program Architecture</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Opportunity Classification</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant bg-surface-container-low px-space-xs py-1 rounded-lg">Select matching engine</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm" id="classification-cards">
+<!-- Card 1: Internship (Selected) -->
+<div aria-checked="true" class="classification-card active-card cursor-pointer p-space-md rounded-xl bg-surface-container-low transition-all relative flex flex-col justify-between shadow-sm" role="radio" tabindex="0">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-secondary uppercase tracking-wider bg-secondary-container/50 px-space-xs py-0.5 rounded">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 3–6 Mo Duration
+                  </span>
+<div class="radio-indicator w-5 h-5 rounded-full bg-primary-container flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary pt-1">Industry Internship</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Stipend-based experiential immersion with mandatory corporate mentorship credit transfer.</p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">assured_workload</span>
+<span>AICTE Internship Policy '24</span>
+</div>
+</div>
+<!-- Card 2: Tier-1 Full-Time Job -->
+<div aria-checked="false" class="classification-card cursor-pointer p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all relative flex flex-col justify-between" role="radio" tabindex="0">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider bg-surface-container-high px-space-xs py-0.5 rounded">
+                    Regular CTC
+                  </span>
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center text-transparent">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Tier-1 Full-Time Job</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct placement role with graduated compensation trajectory and immediate campus onboarding.</p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+<span>Immediate / Day-Zero Access</span>
+</div>
+</div>
+<!-- Card 3: Accredited Co-Cohort -->
+<div aria-checked="false" class="classification-card cursor-pointer p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all relative flex flex-col justify-between" role="radio" tabindex="0">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-on-tertiary-container uppercase tracking-wider bg-tertiary-fixed/40 px-space-xs py-0.5 rounded">
+                    Upskilling Node
+                  </span>
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center text-transparent">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">Accredited Co-Cohort</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Co-designed curriculum with university lab credits, sandbox access, and pre-hire validation.</p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">workspace_premium</span>
+<span>NSQF Level 7 Certification</span>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">info</span>
+            Internship matching queries candidate Skill Passports containing certified capstone verification.
+          </p>
+</section>
+<!-- 2. Basic Details -->
+<section class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 02 • Role Specifications</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Basic Opportunity Details</h2>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Opportunity Title -->
+<div class="md:col-span-2 space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between">
+<span>Opportunity Title <span class="text-error">*</span></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Clear functional role descriptor</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-secondary text-[20px]">badge</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="text" value="Senior Distributed Systems &amp; Cloud Reliability Intern"/>
+</div>
+</div>
+<!-- Role Domain Track -->
+<div class="space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface">Role Domain / Industry Track <span class="text-error">*</span></label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px]">hub</span>
+<select class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest appearance-none cursor-pointer transition-all shadow-sm">
+<option selected="">Cloud Architecture &amp; Platform Engineering</option>
+<option>Data Engineering &amp; Distributed Storage</option>
+<option>VLSI Design &amp; Embedded Systems</option>
+<option>Enterprise AI/ML Infrastructure</option>
+<option>Applied Cybersecurity &amp; DevSecOps</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Cohort Seats -->
+<div class="space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface">Open Positions / Cohort Seats <span class="text-error">*</span></label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px]">chair_alt</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="number" value="15"/>
+</div>
+</div>
+<!-- Work Model Pills -->
+<div class="md:col-span-2 space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface">Work Delivery Model</label>
+<div class="flex flex-wrap gap-space-xs pt-1">
+<label class="flex items-center gap-2 px-space-md py-2 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg cursor-pointer shadow-sm">
+<input checked="" class="hidden" name="work_model" type="radio"/>
+<span class="material-symbols-outlined text-[18px]">domain</span>
+<span>Hybrid • Bengaluru Center</span>
+</label>
+<label class="flex items-center gap-2 px-space-md py-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg cursor-pointer transition-colors">
+<input class="hidden" name="work_model" type="radio"/>
+<span class="material-symbols-outlined text-[18px]">laptop_mac</span>
+<span>100% Remote / Virtual Sandbox</span>
+</label>
+<label class="flex items-center gap-2 px-space-md py-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg cursor-pointer transition-colors">
+<input class="hidden" name="work_model" type="radio"/>
+<span class="material-symbols-outlined text-[18px]">apartment</span>
+<span>Onsite (Pune Innovation Lab)</span>
+</label>
+</div>
+</div>
+<!-- Compensation Inputs -->
+<div class="space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1">
+<span>Internship Stipend</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">lock_clock</span>
+</label>
+<div class="relative flex items-center">
+<span class="absolute left-3 font-headline-sm text-headline-sm text-secondary font-bold">₹</span>
+<input class="w-full h-11 pl-8 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="text" value="45,000 – 60,000 / month"/>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Includes dedicated cloud lab budget</span>
+</div>
+<div class="space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1">
+<span>PPO Trajectory CTC (Post-Internship)</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">trending_up</span>
+</label>
+<div class="relative flex items-center">
+<span class="absolute left-3 font-headline-sm text-headline-sm text-secondary font-bold">₹</span>
+<input class="w-full h-11 pl-8 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="text" value="16.0 – 20.0 LPA"/>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Contingent upon Stage-2 technical passport audit</span>
+</div>
+</div>
+</section>
+<!-- 3. Role Description & Curriculum Scope -->
+<section class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 03 • Scope &amp; Deliverables</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Role Description &amp; Technical Mandate</h2>
+</div>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider px-space-xs py-1 rounded bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined text-[14px]">code</span> Markdown Enabled
+            </span>
+</div>
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm">
+<!-- Textarea Editor Toolbar -->
+<div class="flex flex-wrap items-center gap-1 px-space-md py-2 bg-surface-container">
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">format_bold</span>
+</button>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">format_italic</span>
+</button>
+<div class="w-[1px] h-5 bg-outline-variant mx-1"></div>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">format_list_bulleted</span>
+</button>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">format_list_numbered</span>
+</button>
+<div class="w-[1px] h-5 bg-outline-variant mx-1"></div>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</button>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">link</span>
+</button>
+<button class="w-8 h-8 rounded hover:bg-surface-container-lowest text-on-surface flex items-center justify-center transition-colors ml-auto" type="button">
+<span class="material-symbols-outlined text-[18px]">schema</span>
+</button>
+</div>
+<!-- Content Area -->
+<textarea class="w-full p-space-md bg-surface-container-low font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest resize-y transition-all leading-relaxed" rows="6">We are seeking forward-thinking final-year engineering students to join our core cloud platform team. The candidate will work directly on high-throughput Kubernetes orchestration, distributed gRPC service meshes, and eBPF network telemetry under senior enterprise mentors.
+
+Key Focus Deliverables:
+- Implement automated self-healing node policies in multi-cluster Kubernetes environments.
+- Benchmark and optimize low-latency RPC pathways across microservice boundaries.
+- Build production eBPF kernel monitors for deep packet observability without performance penalties.</textarea>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+              Supports NSQF competency taxonomy level L6/L7 automated parsing.
+            </span>
+<span>482 characters</span>
+</div>
+</section>
+<!-- 4. Required Skills & Competencies (Interactive Multi-Select) -->
+<section class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 04 • Skill Passport Verification</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Required Competencies &amp; Verification Matrix</h2>
+</div>
+<span class="font-label-caps text-label-caps uppercase bg-surface-container-high px-space-xs py-1 rounded text-primary font-bold">Cryptographically Verified</span>
+</div>
+<!-- Search Input -->
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-secondary text-[20px]">search</span>
+<input class="w-full h-11 pl-10 pr-24 bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" id="skill-search-input" placeholder="Type to add competency benchmark (e.g. Rust, Docker, Kafka)..." type="text"/>
+<button class="absolute right-2 px-space-sm h-8 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg flex items-center gap-1 hover:bg-primary transition-colors" id="add-skill-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add</span>
+</button>
+</div>
+<!-- Active Selected Tags -->
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Active Cohort Skill Filters</span>
+<div class="flex flex-wrap gap-2 pt-1" id="skills-container">
+<!-- Primary Skill with NSQF -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-high text-primary font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+<span class="font-semibold">Kubernetes</span>
+<span class="font-label-caps text-label-caps px-1.5 py-0.5 rounded bg-primary text-on-primary">NSQF L7</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+<!-- Skill 2 -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-high text-primary font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+<span class="font-semibold">Go (Golang)</span>
+<span class="font-label-caps text-label-caps px-1.5 py-0.5 rounded bg-secondary text-on-secondary">Primary</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+<!-- Skill 3 -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Distributed Systems</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+<!-- Skill 4 -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>gRPC / Protocol Buffers</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+<!-- Skill 5 -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md">
+<span>PostgreSQL Reliability</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+<!-- Skill 6 -->
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md">
+<span>Docker &amp; Linux Internals</span>
+<button class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center" type="button"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</span>
+</div>
+</div>
+<!-- Suggestions Row -->
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<span class="font-body-sm text-body-sm text-outline">Recommended add-ons:</span>
+<button class="rec-skill-btn px-2.5 py-1 rounded bg-surface-container-low hover:bg-surface-container text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span> eBPF
+            </button>
+<button class="rec-skill-btn px-2.5 py-1 rounded bg-surface-container-low hover:bg-surface-container text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span> Terraform
+            </button>
+<button class="rec-skill-btn px-2.5 py-1 rounded bg-surface-container-low hover:bg-surface-container text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span> Prometheus
+            </button>
+<button class="rec-skill-btn px-2.5 py-1 rounded bg-surface-container-low hover:bg-surface-container text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">add</span> Apache Kafka
+            </button>
+</div>
+<!-- Matching Threshold Slider Module -->
+<div class="p-space-md rounded-xl bg-surface-container-low space-y-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-primary">Minimum Passing Match Threshold</span>
+<span class="material-symbols-outlined text-outline text-[16px]" title="Candidates with aggregate diagnostic scores below this will not enter the fast-track review.">help_outline</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold" id="threshold-val">80% Match</span>
+</div>
+<input class="w-full accent-secondary h-2 bg-surface-container-highest rounded-lg cursor-pointer" id="threshold-slider" max="95" min="60" type="range" value="80"/>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>60% (Broad Campus Scout)</span>
+<span>80% (Recommended Standard)</span>
+<span>95% (Elite Fellowships)</span>
+</div>
+</div>
+</section>
+<!-- 5. Eligibility & Cohort Parameters -->
+<section class="space-y-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 05 • Institutional Clearance</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Eligibility &amp; Cohort Parameters</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Target Batches -->
+<div class="space-y-2">
+<label class="font-label-lg text-label-lg text-on-surface">Graduating Batches</label>
+<div class="space-y-2 bg-surface-container-low p-space-md rounded-xl">
+<label class="flex items-center gap-3 cursor-pointer">
+<input checked="" class="w-4 h-4 rounded text-primary-container focus:ring-secondary accent-primary" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">2025 Graduating Cohort (Final Year)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer">
+<input checked="" class="w-4 h-4 rounded text-primary-container focus:ring-secondary accent-primary" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">2026 Batch (Pre-final Year Summer Track)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer text-on-surface-variant">
+<input class="w-4 h-4 rounded text-primary-container focus:ring-secondary accent-primary" type="checkbox"/>
+<span class="font-body-md text-body-md">2024 Post-Graduate Passouts (M.Tech/M.S.)</span>
+</label>
+</div>
+</div>
+<!-- Academic Cutoff -->
+<div class="space-y-2">
+<label class="font-label-lg text-label-lg text-on-surface">Minimum Academic Benchmark</label>
+<div class="bg-surface-container-low p-space-md rounded-xl space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">CGPA / Percentile Cutoff</span>
+<span class="font-label-lg text-label-lg text-secondary font-bold">≥ 7.5 CGPA</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Or candidate ranked in Top 15% NIPUN National Algorithmic Diagnostic Percentile.</p>
+<div class="pt-2 flex items-center gap-1.5 text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span>AICTE Normalized Grading Scale applied</span>
+</div>
+</div>
+</div>
+<!-- Eligible Degrees -->
+<div class="md:col-span-2 space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface">Eligible Academic Degrees &amp; Disciplines</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px]">school</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="text" value="B.Tech / M.Tech Computer Science, Information Technology, Data Engineering &amp; Distributed Systems"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Application Deadline & Scheduling -->
+<section class="space-y-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Step 06 • Timelines &amp; Automation</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Application Window &amp; Fast-Track Sieve</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md items-center">
+<!-- Deadline Picker -->
+<div class="space-y-1">
+<label class="font-label-lg text-label-lg text-on-surface">Application Closing Timestamp (IST)</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-secondary text-[20px]">event_available</span>
+<input class="w-full h-11 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface focus:outline-none focus:bg-surface-container-lowest transition-all shadow-sm" type="text" value="October 31, 2025, 23:59 IST"/>
+</div>
+</div>
+<!-- Automated Fast-Track Toggle -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-start gap-space-sm">
+<input checked="" class="mt-1 w-5 h-5 rounded text-primary-container accent-primary cursor-pointer" id="fasttrack" type="checkbox"/>
+<div class="space-y-0.5">
+<label class="font-label-lg text-label-lg text-primary cursor-pointer flex items-center gap-1.5" for="fasttrack">
+<span>Automated Fast-Track Interviews</span>
+<span class="material-symbols-outlined text-secondary text-[18px]">bolt</span>
+</label>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">
+                  Auto-trigger technical challenge links to candidates meeting 85%+ passport criteria immediately upon application.
+                </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Form Action Footer -->
+<div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span>Autosaved 2 minutes ago • ISO 27001 encrypted audit trail</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<button class="px-space-md h-11 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-lg text-label-lg transition-colors" type="button">
+              Discard Draft
+            </button>
+<button class="px-space-md h-11 rounded-xl bg-surface-container text-secondary hover:bg-surface-container-high font-label-lg text-label-lg transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+<span>Save as Template</span>
+</button>
+<button class="px-space-xl h-11 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm font-bold shadow-md hover:shadow-lg transition-all flex items-center gap-2" type="button">
+<span>Publish Opportunity Now</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Secondary Sticky Analytics Column: Reach & Cohort Simulator -->
+<div class="lg:col-span-4 space-y-space-md lg:sticky lg:top-20">
+<!-- Reach Estimator Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Cohort Intelligence</span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+</div>
+<div class="space-y-1">
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estimated Verified Reach</p>
+<div class="flex items-baseline gap-2">
+<span class="font-display-lg text-display-lg text-primary tracking-tight font-extrabold" id="qualified-count">3,420</span>
+<span class="font-label-lg text-label-lg text-secondary font-semibold">Qualified Candidates</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Matching benchmark criteria across 12 AICTE Premier Placement Nodes.</p>
+</div>
+<!-- SVG Donut Chart Visualizing Match Quality -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center gap-space-md">
+<div class="relative w-20 h-20 shrink-0">
+<svg class="w-20 h-20 -rotate-90" viewbox="0 0 36 36">
+<circle class="stroke-surface-container-highest" cx="18" cy="18" fill="none" r="15.915" stroke-width="3.5"></circle>
+<!-- 68% high compatibility -->
+<circle class="stroke-secondary" cx="18" cy="18" fill="none" r="15.915" stroke-dasharray="68, 100" stroke-linecap="round" stroke-width="3.5"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold leading-none">68%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant text-[9px]">High Tier</span>
+</div>
+</div>
+<div class="space-y-1 min-w-0">
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-primary font-semibold truncate">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span>2,325 Elite L7 Match</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant truncate">
+<span class="w-2 h-2 rounded-full bg-surface-container-highest shrink-0"></span>
+<span>1,095 L6 Bridge Match</span>
+</div>
+<p class="font-label-caps text-label-caps text-on-surface-variant pt-0.5">Average Diagnostic Score: 84.6/100</p>
+</div>
+</div>
+<!-- Breakdown by Premier Institutes -->
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Top Aligned University Hubs</span>
+<div class="space-y-2">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">account_balance</span>
+<span class="text-on-surface font-medium">IIT Madras Placement Cluster</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-primary">614 Verified</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">account_balance</span>
+<span class="text-on-surface font-medium">IIIT Hyderabad Tech Sandbox</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-primary">540 Verified</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">account_balance</span>
+<span class="text-on-surface font-medium">NIT Surathkal &amp; Trichy Combined</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-primary">892 Verified</span>
+</div>
+</div>
+</div>
+<!-- Institutional Trust Box -->
+<div class="p-space-sm rounded-xl bg-surface-container-high space-y-1">
+<div class="flex items-center gap-1.5 text-primary font-label-md text-label-md font-bold">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span>Zero Unverified Resumes Policy</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Every candidate received has their Git commit history, capstone architecture, and semester credits cryptographically validated against AICTE national node.
+          </p>
+</div>
+</div>
+<!-- Live Enterprise Recruiter Tip Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-2">
+<div class="flex items-center gap-2 text-secondary font-label-lg text-label-lg font-bold">
+<span class="material-symbols-outlined text-[20px]">insights</span>
+<span>Hiring Velocity Forecast</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Roles with <span class="font-semibold text-on-surface">PPO Trajectory CTCs</span> and explicit Kubernetes/Go benchmarks receive an average of 4.2x higher qualified conversion within the first 48 hours of publication.
+        </p>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Micro-interaction: Interactive 3-Way Classification Toggle
+  const classificationCards = document.querySelectorAll('.classification-card');
+  classificationCards.forEach(card => {
+    card.addEventListener('click', () => {
+      classificationCards.forEach(c => {
+        c.classList.remove('active-card', 'bg-surface-container-low');
+        c.classList.add('bg-surface-container-low');
+        c.setAttribute('aria-checked', 'false');
+        const ind = c.querySelector('.radio-indicator');
+        if (ind) {
+          ind.classList.remove('bg-primary-container', 'text-on-primary');
+          ind.classList.add('bg-surface-container-high', 'text-transparent');
+        }
+      });
+      card.classList.add('active-card');
+      card.setAttribute('aria-checked', 'true');
+      const activeInd = card.querySelector('.radio-indicator');
+      if (activeInd) {
+        activeInd.classList.add('bg-primary-container', 'text-on-primary');
+        activeInd.classList.remove('bg-surface-container-high', 'text-transparent');
+      }
+    });
+  });
+
+  // Micro-interaction: Dynamic Match Threshold Slider
+  const thresholdSlider = document.getElementById('threshold-slider');
+  const thresholdVal = document.getElementById('threshold-val');
+  const qualifiedCount = document.getElementById('qualified-count');
+
+  if (thresholdSlider && thresholdVal && qualifiedCount) {
+    thresholdSlider.addEventListener('input', (e) => {
+      const val = e.target.value;
+      thresholdVal.textContent = `${val}% Match`;
+      // Dynamic computation calculation simulation
+      const base = 4800;
+      const computed = Math.round(base * Math.pow((100 - val) / 40, 1.2));
+      qualifiedCount.textContent = computed.toLocaleString();
+    });
+  }
+
+  // Micro-interaction: Add & Remove Skill Tag Badges
+  const skillsContainer = document.getElementById('skills-container');
+  const skillSearchInput = document.getElementById('skill-search-input');
+  const addSkillBtn = document.getElementById('add-skill-btn');
+  const recSkillBtns = document.querySelectorAll('.rec-skill-btn');
+
+  function bindRemoveEvents() {
+    document.querySelectorAll('.skill-remove-btn').forEach(btn => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        btn.closest('span').remove();
+      };
+    });
+  }
+  bindRemoveEvents();
+
+  function addSkillTag(name) {
+    if (!name.trim()) return;
+    const tag = document.createElement('span');
+    tag.className = 'inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md shadow-sm animate-fadeIn';
+    tag.innerHTML = `
+      <span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+      <span>${name.trim()}</span>
+      <button type="button" class="skill-remove-btn ml-1 hover:text-error transition-colors flex items-center">
+        <span class="material-symbols-outlined text-[16px]">close</span>
+      </button>
+    `;
+    skillsContainer.appendChild(tag);
+    bindRemoveEvents();
+  }
+
+  if (addSkillBtn && skillSearchInput) {
+    addSkillBtn.addEventListener('click', () => {
+      if (skillSearchInput.value) {
+        addSkillTag(skillSearchInput.value);
+        skillSearchInput.value = '';
+      }
+    });
+
+    skillSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (skillSearchInput.value) {
+          addSkillTag(skillSearchInput.value);
+          skillSearchInput.value = '';
+        }
+      }
+    });
+  }
+
+  recSkillBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const skillText = btn.textContent.replace('+', '').trim();
+      addSkillTag(skillText);
+      btn.remove();
+    });
+  });
+</script></main></div>
+<script src="assets/demo-store.js"></script>
+<script src="assets/demo-banner.js"></script>
+<script src="assets/post-opportunity-interactive.js"></script>
+<script src="assets/nav-switcher.js"></script>
+</body></html>

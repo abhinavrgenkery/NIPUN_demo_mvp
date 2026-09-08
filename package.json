@@ -1,0 +1,20 @@
+{
+  "name": "nipun-national-workforce-network",
+  "version": "1.0.0",
+  "description": "NIPUN — National Industry Placement & Upskilling Network Competition Prototype",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 3000"
+  },
+  "keywords": [
+    "nipun",
+    "workforce",
+    "placement",
+    "education",
+    "upskilling",
+    "nsqf",
+    "stitch"
+  ],
+  "author": "",
+  "license": "ISC"
+}

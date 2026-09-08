@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-dim": "#ccdbf3", "on-tertiary-container": "#e69300", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "outline-variant": "#c3c6d0", "on-tertiary-fixed": "#2a1700", "surface": "#f8f9ff", "on-secondary-container": "#00647d", "inverse-surface": "#233144", "surface-container-high": "#dce9ff", "secondary-container": "#8fdfff", "on-error-container": "#93000a", "surface-container-low": "#eff4ff", "secondary-fixed-dim": "#81d1f0", "primary-container": "#123c69", "on-primary-fixed": "#001c39", "secondary": "#006781", "tertiary-fixed-dim": "#ffb95f", "on-primary": "#ffffff", "inverse-on-surface": "#eaf1ff", "surface-container": "#e6eeff", "primary-fixed": "#d4e3ff", "error": "#ba1a1a", "on-primary-fixed-variant": "#214875", "on-surface-variant": "#43474f", "tertiary": "#382000", "on-tertiary-fixed-variant": "#653e00", "on-secondary": "#ffffff", "on-secondary-fixed": "#001f29", "on-error": "#ffffff", "surface-bright": "#f8f9ff", "surface-container-highest": "#d5e3fc", "outline": "#737780", "primary": "#00264b", "on-background": "#0d1c2e", "surface-variant": "#d5e3fc", "tertiary-container": "#553400", "primary-fixed-dim": "#a5c8fe", "on-tertiary": "#ffffff", "surface-tint": "#3c608f", "on-primary-container": "#84a7db", "on-surface": "#0d1c2e", "secondary-fixed": "#b9eaff", "background": "#f8f9ff", "on-secondary-fixed-variant": "#004d62", "tertiary-fixed": "#ffddb8", "inverse-primary": "#a5c8fe" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.5rem", "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-3xl": "4rem", "space-xl": "2rem", "space-md": "1rem", "space-xxs": "0.25rem", "space-sm": "0.75rem", "space-2xl": "3rem", "gutter-desktop": "1.5rem", "container-max": "80rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "body-md": [ "Inter" ], "label-caps": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "display-lg": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "headline-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" } ], "headline-xl-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-md": [ "22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-lg flex items-center justify-between bg-surface-container-low"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #123c69
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UfoJTlE-YL4YOFG0z3SJRxGJXcPN9nmwfQCFYGK67Bsf0WigkhNSPrLcW0PJBTbsW0L4Zf9NpFe4vaGdJjb75Eu6g3vxZzH5BHzAwXvfDDgctteDow0kUc5XMYeTliV2AMrRev-t0rTaCq8BDmL3bUGgf7198e8AEf1kF-4MgSaoeXfWwXz97pSuo71ChRDYKpPX27CWXjSYPBRbRA2Bua9zn4zN95JbmEpnlNuRnz5fkGOX8E1U_WB83W"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">NIPUN</span><span class="font-label-caps text-label-caps text-secondary uppercase">Enterprise Portal</span></div></div></div><div class="px-space-md py-space-sm bg-surface-container-low"><div class="flex items-center justify-between px-space-sm py-space-xs rounded-xl bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs min-w-0"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span><div class="truncate"><p class="font-label-md text-label-md text-on-surface truncate">TCS / Talent Hub</p><p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Accredited Employer</p></div></div><span class="material-symbols-outlined text-on-surface-variant text-[18px]">unfold_more</span></div></div><div class="px-space-md pt-space-md pb-space-xs"><p class="px-space-sm font-label-caps text-label-caps text-outline uppercase tracking-wider">Enterprise Recruitment</p></div><nav class="flex-1 px-space-md space-y-space-xxs overflow-y-auto" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard-overview" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">grid_view</span><span>Dashboard / Overview</span></div></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="active-postings" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">work_outline</span><span>Active Postings</span></div><span class="px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container">12</span></a><a aria-current="page" class="flex items-center justify-between px-space-sm py-space-xs transition-colors bg-primary-container text-on-primary font-label-lg rounded-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]" data-path="applicant-pipeline" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">assignment_ind</span><span>Applicant Pipeline</span></div><span class="w-2 h-2 rounded-full bg-secondary"></span></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="talent-scout-skill-passports" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">badge</span><span>Talent Scout &amp; Passports</span></div></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="campus-drives-cohorts" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">school</span><span>Campus Drives &amp; Cohorts</span></div></a><div class="pt-space-md pb-space-xs"><p class="px-space-sm font-label-caps text-label-caps text-outline uppercase tracking-wider">Governance &amp; Integrations</p></div><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="enterprise-settings-api" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">tune</span><span>Enterprise Settings &amp; API</span></div></a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="compliance-audit-log" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">policy</span><span>Compliance &amp; Verification</span></div></a></nav><div class="p-space-md bg-surface-container-low"><div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xs mb-space-xxs"><span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span><span class="font-label-caps text-label-caps text-primary uppercase">MoE &amp; AICTE Linked</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">National Placement Node: #DL-2024-TCS</p></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)] px-space-xl"><div class="h-16 w-full flex items-center justify-between gap-space-lg"><div class="flex-1 max-w-lg"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-space-sm text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest transition-all" placeholder="Search verified candidates, skill tags, or job IDs..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-space-xs h-10 px-space-md bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-xl transition-all shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-[18px]">add</span><span>Post New Role</span></button><div class="relative"><button class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error"></span></button></div><div class="h-8 w-[1px] bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:block"><p class="font-label-lg text-label-lg text-on-surface leading-tight">Rajesh Sundaram</p><p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">Head of Campus Hiring</p></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full space-y-space-lg">
+<!-- Top Context Header & Breadcrumb Strip -->
+<div class="flex flex-col gap-space-xs">
+<nav class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Active Postings</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="text-primary font-semibold">Senior Distributed Systems Intern</span>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="text-secondary font-medium">Applicant Pipeline</span>
+</nav>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md pt-space-xs">
+<div class="space-y-space-xxs">
+<div class="flex items-center gap-space-sm flex-wrap">
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Senior Distributed Systems &amp; Cloud Reliability Intern</h1>
+<span class="px-space-xs py-0.5 rounded-full font-label-caps text-label-caps uppercase bg-secondary-container text-on-secondary-container font-semibold">15 Seats Open</span>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap pt-space-xxs">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface font-medium">
+<span class="material-symbols-outlined text-[15px] text-secondary">workspace_premium</span>
+            Internship with PPO
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[15px] text-outline">location_on</span>
+            Bengaluru / Hybrid
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-tertiary-fixed text-on-tertiary-fixed font-semibold">
+<span class="material-symbols-outlined text-[15px]">timer</span>
+            Closes in 12 Days
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full font-label-md text-label-md bg-surface-container-highest text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            Active Recruiter Sourcing
+          </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider pl-space-xs">Req ID: NPN-BLR-2024-918</span>
+</div>
+</div>
+<!-- Action Group -->
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="inline-flex items-center gap-space-xxs h-9 px-space-sm rounded-xl font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-low transition-all">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+<span>Edit Posting</span>
+</button>
+<button class="inline-flex items-center gap-space-xxs h-9 px-space-sm rounded-xl font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-low transition-all">
+<span class="material-symbols-outlined text-[18px]">sim_card_download</span>
+<span>Export Dossier (CSV)</span>
+</button>
+<button class="inline-flex items-center gap-space-xxs h-9 px-space-md rounded-xl font-label-lg text-label-lg bg-primary hover:bg-primary-container text-on-primary shadow-sm transition-all">
+<span class="material-symbols-outlined text-[18px]">forward_to_inbox</span>
+<span>Batch Invite Assessment</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Metric Pipeline Strip (4-column cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1: Total -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 opacity-5">
+<span class="material-symbols-outlined text-[96px] text-primary">groups</span>
+</div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Candidate Pool</span>
+<span class="p-1 rounded-md bg-surface-container text-primary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</span>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary leading-none">96</span>
+<span class="font-label-md text-label-md text-secondary font-medium">+14 today</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">100% NSQF sovereign pre-verified</p>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-primary h-full w-full rounded-full"></div>
+</div>
+</div>
+<!-- Card 2: High Match (>85%) -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">High Match (&gt;85%)</span>
+<span class="p-1 rounded-md bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">radar</span>
+</span>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">28</span>
+<span class="px-1.5 py-0.5 rounded font-label-caps text-label-caps bg-secondary-container text-on-secondary-container uppercase">L7 Passports</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Algorithmic alignment with core stack</p>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 29.1%;"></div>
+</div>
+</div>
+<!-- Card 3: Shortlisted -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Shortlisted (In Review)</span>
+<span class="p-1 rounded-md bg-surface-container text-primary">
+<span class="material-symbols-outlined text-[18px]">checklist</span>
+</span>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary leading-none">14</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">in Tech Round 1 &amp; 2</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">4 pending mentor review scorecard</p>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 14.5%;"></div>
+</div>
+</div>
+<!-- Card 4: Direct Placements -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Offers &amp; Conversions</span>
+<span class="p-1 rounded-md bg-tertiary-fixed text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</span>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary leading-none">4 <span class="text-headline-md text-outline font-normal">/ 2</span></span>
+<span class="font-label-md text-label-md text-secondary font-semibold">50% Velocity</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">4 Extended • 2 Formally Accepted</p>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-secondary-fixed-dim h-full rounded-full" style="width: 40%;"></div>
+</div>
+</div>
+</div>
+<!-- Filter, Search & Batch Control Bar -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-md">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Search -->
+<div class="relative flex-1 max-w-xl">
+<span class="material-symbols-outlined absolute left-space-sm top-2.5 text-outline text-[20px]">manage_search</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface rounded-xl font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-low transition-colors" placeholder="Search applicant name, college, roll number, or skill tag..." type="text"/>
+</div>
+<!-- Segmented Status Badges -->
+<div class="flex items-center gap-1 overflow-x-auto pb-1 lg:pb-0">
+<button class="px-space-sm py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap shadow-sm">
+          All Statuses (96)
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface text-on-surface-variant hover:bg-surface-container font-label-md text-label-md whitespace-nowrap transition-colors">
+          Applied (42)
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface text-on-surface-variant hover:bg-surface-container font-label-md text-label-md whitespace-nowrap transition-colors">
+          Shortlisted (14)
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface text-on-surface-variant hover:bg-surface-container font-label-md text-label-md whitespace-nowrap transition-colors">
+          Accepted (4)
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface text-on-surface-variant hover:bg-surface-container font-label-md text-label-md whitespace-nowrap transition-colors">
+          Rejected (36)
+        </button>
+</div>
+</div>
+<!-- Second row filters & Batch trigger -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs border-t-0 bg-surface-container-low/50 p-space-xs rounded-lg">
+<div class="flex items-center gap-space-xs flex-wrap">
+<!-- Match filter -->
+<div class="relative inline-flex items-center">
+<select class="appearance-none h-8 pl-space-sm pr-7 bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-lg shadow-sm focus:outline-none cursor-pointer">
+<option>Match: All (&gt;75%)</option>
+<option selected="">Match: &gt;90% Prime</option>
+<option>Match: 80% - 90%</option>
+<option>Match: Below 80%</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 text-outline text-[16px]">expand_more</span>
+</div>
+<!-- University filter -->
+<div class="relative inline-flex items-center">
+<select class="appearance-none h-8 pl-space-sm pr-7 bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-lg shadow-sm focus:outline-none cursor-pointer">
+<option selected="">All Accredited Campuses (24)</option>
+<option>IIT Roorkee (8)</option>
+<option>NIT Surathkal (12)</option>
+<option>COEP Tech Pune (9)</option>
+<option>Anna University (14)</option>
+<option>BITS Pilani (6)</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 text-outline text-[16px]">expand_more</span>
+</div>
+<!-- Capstone Grade filter -->
+<div class="relative inline-flex items-center">
+<select class="appearance-none h-8 pl-space-sm pr-7 bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-lg shadow-sm focus:outline-none cursor-pointer">
+<option selected="">Passport: NSQF Level 7</option>
+<option>Grade A+ Only</option>
+<option>Verified Git Capstone</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 text-outline text-[16px]">expand_more</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<label class="inline-flex items-center gap-2 cursor-pointer font-body-sm text-body-sm text-on-surface select-none">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+<span>Select All (1–6 of 96)</span>
+</label>
+<button class="inline-flex items-center gap-1 h-8 px-space-sm rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-highest transition-colors">
+<span class="material-symbols-outlined text-[16px]">swap_vert</span>
+<span>Batch Action</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Candidates High-Density Data Ledger -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[1040px]">
+<thead>
+<tr class="bg-surface-container-low font-label-caps text-label-caps text-outline uppercase tracking-wider">
+<th class="py-3 px-space-md w-10 text-center">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</th>
+<th class="py-3 px-space-md">Candidate &amp; Academic Node</th>
+<th class="py-3 px-space-md w-36">Match Score</th>
+<th class="py-3 px-space-md">Verified Competency Profile</th>
+<th class="py-3 px-space-md w-48">NSQF Credential</th>
+<th class="py-3 px-space-md w-36">Stage Status</th>
+<th class="py-3 px-space-md w-16 text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 font-body-sm text-body-sm">
+<!-- Row 1: Aryan Dev Sharma -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-headline-sm text-headline-sm text-on-primary-fixed font-bold">
+                    AS
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full" title="Aadhaar &amp; AICTE National Identity Verified">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold truncate">Aryan Dev Sharma</span>
+<span class="px-1.5 py-0.5 rounded font-label-caps text-label-caps bg-surface-container text-on-surface-variant">AIR 14</span>
+</div>
+<p class="text-on-surface-variant font-medium truncate">IIT Roorkee • B.Tech CSE (7th Sem)</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 21114029 • APPLIED 2H AGO</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">radar</span>
+<span>96%</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-semibold mt-1">Exceptional Fit</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>Go
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>Kubernetes
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>gRPC
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Distributed DBs
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Passport L7: 94/100</span>
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">military_tech</span>
+                  Capstone Grade A+
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #8f92..c1a</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-secondary-container text-on-secondary-container cursor-pointer focus:outline-none">
+<option selected="" value="shortlisted">Shortlisted</option>
+<option value="applied">Applied</option>
+<option value="accepted">Accepted</option>
+<option value="rejected">Rejected</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-secondary-container text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-primary transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-secondary transition-colors" title="Schedule Tech Round">
+<span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Priya Nanduri -->
+<tr class="hover:bg-surface-container-low/60 transition-colors bg-surface-container-lowest/30 group">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center font-headline-sm text-headline-sm text-on-secondary-container font-bold">
+                    PN
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold truncate">Priya Nanduri</span>
+<span class="px-1.5 py-0.5 rounded font-label-caps text-label-caps bg-surface-container text-on-surface-variant">Top 1%</span>
+</div>
+<p class="text-on-surface-variant font-medium truncate">NIT Surathkal • B.Tech IT (Final Yr)</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 20IT148 • APPLIED 4H AGO</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">radar</span>
+<span>94%</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-semibold mt-1">High Suitability</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>Kubernetes
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>Go
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Linux Internals
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Docker
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Passport L7: 91/100</span>
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">military_tech</span>
+                  Capstone Grade A+
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #3b74..e80</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-secondary-container text-on-secondary-container cursor-pointer focus:outline-none">
+<option selected="" value="shortlisted">Shortlisted</option>
+<option value="applied">Applied</option>
+<option value="accepted">Accepted</option>
+<option value="rejected">Rejected</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-secondary-container text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-primary transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-secondary transition-colors" title="Schedule Tech Round">
+<span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Rohan Deshmukh -->
+<tr class="hover:bg-surface-container-low/60 transition-colors bg-surface-container-low/20 group">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center font-headline-sm text-headline-sm text-on-primary font-bold">
+                    RD
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold truncate">Rohan Deshmukh</span>
+<span class="px-1.5 py-0.5 rounded font-label-caps text-label-caps bg-tertiary-fixed text-on-tertiary-fixed">Offer Signed</span>
+</div>
+<p class="text-on-surface-variant font-medium truncate">COEP Tech Pune • B.Tech Comp Engg</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 112003042 • APPLIED YESTERDAY</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">radar</span>
+<span>91%</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-semibold mt-1">High Suitability</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span>Distributed Sys
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  PostgreSQL
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  eBPF
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Go
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Passport L7: 89/100</span>
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">military_tech</span>
+                  Capstone Grade A
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #91dc..10a</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-primary text-on-primary cursor-pointer focus:outline-none">
+<option selected="" value="accepted">Accepted</option>
+<option value="shortlisted">Shortlisted</option>
+<option value="applied">Applied</option>
+<option value="rejected">Rejected</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-primary text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-primary transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-secondary transition-colors" title="Placement Letter Download">
+<span class="material-symbols-outlined text-[18px]">description</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Sneha Venkatesh -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm text-primary font-bold">
+                    SV
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold truncate">Sneha Venkatesh</span>
+</div>
+<p class="text-on-surface-variant font-medium truncate">Anna University (CEG) • B.E. ECE</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 202110359 • APPLIED YESTERDAY</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-surface-container text-on-surface font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px] text-secondary">radar</span>
+<span>88%</span>
+</div>
+<span class="font-label-caps text-label-caps text-outline font-semibold mt-1">Strong Match</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Kubernetes
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Docker
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Python
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  CI/CD
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Passport L6: 82/100</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">military_tech</span>
+                  Capstone Grade B+
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #7e12..9f4</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-surface-container text-on-surface cursor-pointer focus:outline-none">
+<option selected="" value="applied">Applied</option>
+<option value="shortlisted">Shortlisted</option>
+<option value="accepted">Accepted</option>
+<option value="rejected">Rejected</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-surface-variant text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-primary transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-secondary transition-colors" title="Schedule Screening">
+<span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Kabir Mehta -->
+<tr class="hover:bg-surface-container-low/60 transition-colors bg-surface-container-lowest/30 group">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-headline-sm text-on-surface-variant font-bold">
+                    KM
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold truncate">Kabir Mehta</span>
+</div>
+<p class="text-on-surface-variant font-medium truncate">BITS Pilani (Goa Campus) • B.E. CS</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 2021A7PS014G • APPLIED OCT 14</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-surface-container text-on-surface font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px] text-secondary">radar</span>
+<span>82%</span>
+</div>
+<span class="font-label-caps text-label-caps text-outline font-semibold mt-1">Moderate Fit</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Go
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Microservices
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Redis
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md font-medium">
+                  Linux
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Passport L6: 79/100</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">military_tech</span>
+                  Capstone Grade B
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #5c01..88b</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-surface-container text-on-surface cursor-pointer focus:outline-none">
+<option selected="" value="applied">Applied</option>
+<option value="shortlisted">Shortlisted</option>
+<option value="accepted">Accepted</option>
+<option value="rejected">Rejected</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-surface-variant text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-primary transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-secondary transition-colors" title="Schedule Screening">
+<span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 6: Aditya Verma -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group opacity-85">
+<td class="py-space-md px-space-md text-center align-middle">
+<input class="w-4 h-4 rounded bg-surface accent-primary cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-headline-sm text-headline-sm text-outline font-bold">
+                    AV
+                  </div>
+<span class="material-symbols-outlined absolute -bottom-1 -right-1 text-secondary text-[16px] bg-surface-container-lowest rounded-full">verified</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface-variant font-bold truncate line-through">Aditya Verma</span>
+</div>
+<p class="text-outline font-medium truncate">Delhi Technological Univ • B.Tech SE</p>
+<p class="font-label-caps text-label-caps text-outline tracking-wider uppercase">ROLL: 2K20SE018 • APPLIED OCT 13</p>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="inline-flex flex-col">
+<div class="inline-flex items-center gap-1 px-space-xs py-1 rounded-full bg-error-container text-on-error-container font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">radar</span>
+<span>76%</span>
+</div>
+<span class="font-label-caps text-label-caps text-error font-semibold mt-1">Below Cutoff</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-wrap gap-1 max-w-sm">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-outline font-label-md text-label-md">
+                  Java
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-outline font-label-md text-label-md">
+                  Docker
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-outline font-label-md text-label-md">
+                  Kubernetes
+                </span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-outline font-medium">Passport L5: 68/100</span>
+<span class="font-body-sm text-body-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">remove_circle_outline</span>
+                  Capstone Grade C
+                </span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Hash: #1a08..33f</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle">
+<div class="relative inline-block">
+<select class="appearance-none h-8 pl-space-xs pr-6 rounded-lg font-label-md text-label-md font-semibold bg-error-container text-on-error-container cursor-pointer focus:outline-none">
+<option selected="" value="rejected">Rejected</option>
+<option value="applied">Applied</option>
+<option value="shortlisted">Shortlisted</option>
+<option value="accepted">Accepted</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-1.5 top-2 text-on-error-container text-[16px]">arrow_drop_down</span>
+</div>
+</td>
+<td class="py-space-md px-space-md align-middle text-right">
+<div class="flex items-center justify-end gap-1 opacity-80 group-hover:opacity-100">
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="View Skill Passport">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Archived History">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container text-outline transition-colors" title="Options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Ledger Footer / Pagination Strip -->
+<div class="p-space-md bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-md border-t-0">
+<div class="flex items-center gap-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Showing <span class="font-semibold text-primary">1–6</span> of <span class="font-semibold text-primary">96</span> sovereign certified candidates
+        </span>
+<div class="hidden md:flex items-center gap-1.5 pl-space-sm border-l-0 text-secondary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<a class="font-label-md text-label-md hover:underline font-semibold" href="#">Download Sovereign Verification Ledger (NSQF Audit)</a>
+</div>
+</div>
+<!-- Modern Pagination Controls -->
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container flex items-center justify-center transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-semibold shadow-sm">
+          1
+        </button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md flex items-center justify-center transition-colors">
+          2
+        </button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md flex items-center justify-center transition-colors">
+          3
+        </button>
+<span class="px-1 text-outline font-label-md text-label-md">...</span>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md flex items-center justify-center transition-colors">
+          16
+        </button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container-high flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Interactive Quick-Review Drawer/Banner for Sovereign Verification Insight -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary text-[22px]">policy</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Institutional Talent Assurance Protocol (NIPUN Sovereign L7)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-2xl">
+          All 96 candidates have authenticated cryptographic academic nodes issued by AICTE/UGC and automated anti-cheat verified repository capstone milestones.
+        </p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 w-full md:w-auto">
+<button class="w-full md:w-auto px-space-md py-2 rounded-xl bg-surface-container-lowest text-primary hover:bg-surface-container font-label-md text-label-md font-semibold transition-colors shadow-sm">
+        Audit Registry Details
+      </button>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for status select background updates
+  document.querySelectorAll('tbody select').forEach(select => {
+    select.addEventListener('change', (e) => {
+      const val = e.target.value;
+      e.target.classList.remove('bg-secondary-container', 'text-on-secondary-container', 'bg-primary', 'text-on-primary', 'bg-surface-container', 'text-on-surface', 'bg-error-container', 'text-on-error-container');
+      if (val === 'shortlisted') {
+        e.target.classList.add('bg-secondary-container', 'text-on-secondary-container');
+      } else if (val === 'accepted') {
+        e.target.classList.add('bg-primary', 'text-on-primary');
+      } else if (val === 'rejected') {
+        e.target.classList.add('bg-error-container', 'text-on-error-container');
+      } else {
+        e.target.classList.add('bg-surface-container', 'text-on-surface');
+      }
+    });
+  });
+</script></main></div>
+<script src="assets/demo-store.js"></script>
+<script src="assets/demo-banner.js"></script>
+<script src="assets/pipeline-interactive.js"></script>
+<script src="assets/nav-switcher.js"></script>
+</body></html>

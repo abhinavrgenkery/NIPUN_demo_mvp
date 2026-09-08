@@ -1,0 +1,472 @@
+{
+  "project": {
+    "name": "projects/15141067284103482666",
+    "title": "NIPUN Brand Design System",
+    "visibility": "PUBLIC",
+    "createTime": "2026-09-08T17:30:59.131083Z",
+    "updateTime": "2026-09-08T18:32:33.970876Z",
+    "projectType": "TEXT_TO_UI_PRO",
+    "thumbnailScreenshot": {
+      "name": "projects/15141067284103482666/screens/b2d96e845edd83c7f261abea1e1f0008dd61c58a787fa4106bb49c1ad9354a67/fileEntries/screenshot",
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WQwzVhFJlCTjQ-zMUlvhOvCvFaKJ15Uo5f2TI0FR6kBvQT9gr9jbhj8HemarjVZNtymjL-1-svfpH1m4QGlnuitdEp-Pj2uS3meaKp6R76IamtIr6k3A9ohfrYQLN7YHaBwPDU0MBG_vipO-UhgsXAsdY2UQ68Jby8VSIwLbpdKqh9GApix5rM01PGgjIhi5yLfBVfZ6NhCZmFkrJ2lgCGsJyLg6KEBsjhpNmh4hcs38E8gEVSMF3MejRH"
+    },
+    "origin": "STITCH",
+    "deviceType": "DESKTOP",
+    "designTheme": {
+      "colorMode": "LIGHT",
+      "font": "PLUS_JAKARTA_SANS",
+      "roundness": "ROUND_FOUR",
+      "customColor": "#123c69",
+      "headlineFont": "PLUS_JAKARTA_SANS",
+      "bodyFont": "INTER",
+      "labelFont": "PLUS_JAKARTA_SANS",
+      "namedColors": {
+        "on_tertiary_fixed_variant": "#653e00",
+        "on_secondary_container": "#00647d",
+        "on_primary_fixed": "#001c39",
+        "surface_container_highest": "#d5e3fc",
+        "on_surface_variant": "#43474f",
+        "surface_container_low": "#eff4ff",
+        "on_secondary_fixed": "#001f29",
+        "outline_variant": "#c3c6d0",
+        "surface_tint": "#3c608f",
+        "on_error_container": "#93000a",
+        "inverse_surface": "#233144",
+        "surface_bright": "#f8f9ff",
+        "on_background": "#0d1c2e",
+        "on_surface": "#0d1c2e",
+        "surface_container_high": "#dce9ff",
+        "primary_fixed_dim": "#a5c8fe",
+        "tertiary_fixed_dim": "#ffb95f",
+        "outline": "#737780",
+        "on_primary_container": "#84a7db",
+        "secondary": "#006781",
+        "inverse_on_surface": "#eaf1ff",
+        "primary_container": "#123c69",
+        "inverse_primary": "#a5c8fe",
+        "on_secondary": "#ffffff",
+        "secondary_container": "#8fdfff",
+        "surface": "#f8f9ff",
+        "secondary_fixed": "#b9eaff",
+        "primary": "#00264b",
+        "surface_dim": "#ccdbf3",
+        "tertiary": "#382000",
+        "on_tertiary_fixed": "#2a1700",
+        "tertiary_fixed": "#ffddb8",
+        "error": "#ba1a1a",
+        "surface_variant": "#d5e3fc",
+        "error_container": "#ffdad6",
+        "on_secondary_fixed_variant": "#004d62",
+        "tertiary_container": "#553400",
+        "background": "#f8f9ff",
+        "surface_container": "#e6eeff",
+        "surface_container_lowest": "#ffffff",
+        "primary_fixed": "#d4e3ff",
+        "secondary_fixed_dim": "#81d1f0",
+        "on_primary": "#ffffff",
+        "on_tertiary": "#ffffff",
+        "on_tertiary_container": "#e69300",
+        "on_primary_fixed_variant": "#214875",
+        "on_error": "#ffffff"
+      },
+      "designMd": "---\nname: NIPUN \u2014 National Industry Placement & Upskilling Network\ncolors:\n  surface: '#f8f9ff'\n  surface-dim: '#ccdbf3'\n  surface-bright: '#f8f9ff'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#eff4ff'\n  surface-container: '#e6eeff'\n  surface-container-high: '#dce9ff'\n  surface-container-highest: '#d5e3fc'\n  on-surface: '#0d1c2e'\n  on-surface-variant: '#43474f'\n  inverse-surface: '#233144'\n  inverse-on-surface: '#eaf1ff'\n  outline: '#737780'\n  outline-variant: '#c3c6d0'\n  surface-tint: '#3c608f'\n  primary: '#00264b'\n  on-primary: '#ffffff'\n  primary-container: '#123c69'\n  on-primary-container: '#84a7db'\n  inverse-primary: '#a5c8fe'\n  secondary: '#006781'\n  on-secondary: '#ffffff'\n  secondary-container: '#8fdfff'\n  on-secondary-container: '#00647d'\n  tertiary: '#382000'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#553400'\n  on-tertiary-container: '#e69300'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#d4e3ff'\n  primary-fixed-dim: '#a5c8fe'\n  on-primary-fixed: '#001c39'\n  on-primary-fixed-variant: '#214875'\n  secondary-fixed: '#b9eaff'\n  secondary-fixed-dim: '#81d1f0'\n  on-secondary-fixed: '#001f29'\n  on-secondary-fixed-variant: '#004d62'\n  tertiary-fixed: '#ffddb8'\n  tertiary-fixed-dim: '#ffb95f'\n  on-tertiary-fixed: '#2a1700'\n  on-tertiary-fixed-variant: '#653e00'\n  background: '#f8f9ff'\n  on-background: '#0d1c2e'\n  surface-variant: '#d5e3fc'\ntypography:\n  display-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 48px\n    fontWeight: '800'\n    lineHeight: 56px\n    letterSpacing: -0.02em\n  display-lg-mobile:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 32px\n    fontWeight: '800'\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-xl:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 36px\n    fontWeight: '700'\n    lineHeight: 44px\n    letterSpacing: -0.02em\n  headline-xl-mobile:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 26px\n    fontWeight: '700'\n    lineHeight: 34px\n    letterSpacing: -0.01em\n  headline-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 28px\n    fontWeight: '700'\n    lineHeight: 36px\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 22px\n    fontWeight: '600'\n    lineHeight: 30px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 18px\n    fontWeight: '600'\n    lineHeight: 26px\n    letterSpacing: 0em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Inter\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-sm:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 20px\n  label-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 20px\n    letterSpacing: 0.01em\n  label-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.02em\n  label-caps:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 11px\n    fontWeight: '700'\n    lineHeight: 16px\n    letterSpacing: 0.06em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  space-xxs: 0.25rem\n  space-xs: 0.5rem\n  space-sm: 0.75rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2rem\n  space-2xl: 3rem\n  space-3xl: 4rem\n  gutter-desktop: 1.5rem\n  gutter-mobile: 1rem\n  container-max: 80rem\n---\n\n## Brand & Style\n\nThis design system serves a mission-critical trifecta: university leaders, enterprise hiring directors, and ambitious candidates advancing their careers. It bridges public institutional authority with the agile clarity of modern EdTech and enterprise SaaS.\n\n### Personality & Tone\n- **Institutional Gravitas:** Grounded, rigorously structured, and policy-compliant without appearing bureaucratic or stagnant.\n- **Architectural Precision:** Every layout, alignment, and data visual communicates high evidentiary standards, verified milestones, and trust.\n- **Upward Momentum:** Forward-looking, optimistic, and catalytic, celebrating human potential and tangible economic mobility.\n\n### Design Movement: Modern Institutional Corporate\nThe visual strategy integrates crisp Corporate Modernism with calibrated EdTech accessibility:\n- Pure surfaces with razor-sharp 1px internal bounding boxes.\n- Architectural typographic contrast pairing institutional heavy weights with generous, highly-legible body rhythm.\n- Purposeful chromatic coding: administrative stability (Deep Blue), technical innovation (Teal), verified attainment (Green), and urgent opportunity (Amber).\n\n## Colors\n\nThe system uses a deliberate, high-clarity palette tuned for complex governance dashboards, high-volume applicant matrices, and enterprise partner directories.\n\n### Primary Roles\n- **Primary Brand (`#123C69`)**: Deep Blue. Anchors primary headers, authoritative actions, national certification seals, and foundational navigation bars. Communicates institutional permanence.\n- **Secondary (`#0E7490`)**: Modern Teal. Applied to active technical streams, upskilling metrics, interactive tab states, progress meters, and sub-system highlights.\n- **Energetic Accent (`#F59E0B`)**: Bright Amber. Reserved for urgent placement notices, pending verification alerts, active hiring drives, and focal calls-to-action.\n- **Success & Growth (`#16A34A`)**: Verified Green. Signals validated credential authenticity, secured job placements, upward salary differentials, and passed assessments.\n\n### Neutral & Surface Hierarchy\n- **Canvas / Background (`#F4F8FC`)**: Toned Ice Blue. Eliminates glaring white viewport fatigue in enterprise workflows and clearly frames white content containers.\n- **Surface / Card (`#FFFFFF`)**: Pure White. Strictly dedicated to elevated component surfaces, data tiles, and form blocks.\n- **Text Primary (`#0F172A`)**: Slate 900. High-density typographic contrast for critical tabular data, body text, and titles.\n- **Text Muted (`#475569`)**: Slate 600. Contextual descriptions, secondary meta-labels, timestamps, and breadcrumb trails.\n- **Structural Border (`#E2E8F0`)**: Slate 200. Systematic 1px structural framing for cards, input outlines, and divider rules.\n\n## Typography\n\nTypographic scale is constructed by combining the geometric confidence of Plus Jakarta Sans for displays, headers, and UI anchors with the neutral, hyper-legible neutrality of Inter for extended body copy and dense tables.\n\n### Rules & Applications\n- **Headlines & Metric Figures**: Always set in Plus Jakarta Sans with tighter tracking (`-0.01em` to `-0.02em`) to convey editorial prestige and structure.\n- **Body Rhythm**: All narrative passages, candidate summaries, and corporate program descriptions utilize Inter with an explicit `line-height: 1.6` multiplier to maximize scan-readiness across high-density sessions.\n- **Micro-Labels & Metadata**: Apply `label-caps` in uppercase styling with `letter-spacing: 0.06em` for institutional acronyms, cohort tracking badges, and workflow status indicators.\n\n## Layout & Spacing\n\nThe layout is built on a responsive 12-column structural grid system anchored by an 8pt architectural rhythm (with a 4pt sub-grid for icons and compact UI controls).\n\n### Layout Grid Architecture\n- **Desktop (>= 1280px)**: 12 columns, max-width `1280px` (`80rem`), centered, `24px` (`1.5rem`) gutters, `32px` outer boundary margins.\n- **Tablet (768px \u2013 1279px)**: 8 columns, fluid width, `20px` gutters, `24px` horizontal page padding. Side navigation rails collapse into an expandable drawer.\n- **Mobile (< 768px)**: 4 columns, fluid width, `16px` (`1rem`) gutters, `16px` outer page margins. Metrics grids reflow to single-column or 2-column paired cards.\n\n### Vertical Rhythm\nSection spacing adheres to strict cadence multiples: `32px` between coupled dashboard widgets, `48px` to `64px` separating distinct editorial blocks, and `16px` internal padding within modular data units.\n\n## Elevation & Depth\n\nVisual hierarchy uses physical boundaries reinforced by soft, blue-tinted ambient occlusion rather than heavy drop shadows. Every card maintains crisp separation against the `#F4F8FC` canvas.\n\n### Surface Tiers\n- **Tier 0 (Canvas Base)**: `#F4F8FC`. Flat, structural foundation layer.\n- **Tier 1 (Resting Cards & Modules)**: Background `#FFFFFF`, border `1px solid #E2E8F0`, shadow `0 1px 3px 0 rgba(18, 60, 105, 0.04), 0 1px 2px -1px rgba(18, 60, 105, 0.03)`.\n- **Tier 2 (Hover States & Active Units)**: Background `#FFFFFF`, border `1px solid #CBD5E1`, shadow `0 10px 15px -3px rgba(18, 60, 105, 0.07), 0 4px 6px -4px rgba(18, 60, 105, 0.04)`. Elevates slightly with a `-2px` Y-axis transition.\n- **Tier 3 (Modals, Overlays & Flyouts)**: Background `#FFFFFF`, border `1px solid #E2E8F0`, shadow `0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.06)`. Accompanied by a backdrop blur scrim: `rgba(15, 23, 42, 0.45)` with `backdrop-filter: blur(4px)`.\n\n## Shapes\n\nThe design system adopts a **Soft (Level 1)** shape language. This conservative curve profile balances institutional reliability with contemporary interface ergonomics.\n\n### Geometric Rules\n- **Base Elements (`rounded`, 0.25rem / 4px)**: Checkboxes, table row selectors, inline data tags, and micro-indicators.\n- **Components (`rounded-lg`, 0.5rem / 8px)**: Standard buttons, text form inputs, dropdown selectors, alert banners, and standard data cards.\n- **Containers (`rounded-xl`, 0.75rem / 12px)**: Primary modal dialogues, comprehensive analytical dashboard sections, and elevated verified profile views.\n- **Pill Exceptions (`rounded-full`, 9999px)**: Solely applied to status chips, verified partner credentials, and candidate trajectory tags.\n\n## Components\n\n### Buttons\n- **Primary Action**: Background `#123C69`, label text `#FFFFFF`, border `none`, radius `8px`, font `Plus Jakarta Sans` 600. Hover: `#0D2E51`. Active: `#0A233F`. Focus: `0 0 0 3px rgba(18, 60, 105, 0.25)`.\n- **Secondary Action (Upskill/Action)**: Background `#0E7490`, label text `#FFFFFF`, border `none`, radius `8px`. Hover: `#0B5E75`.\n- **Outline / Institutional**: Background `#FFFFFF`, label text `#123C69`, border `1px solid #E2E8F0`, radius `8px`. Hover: background `#F8FAFC`, border `#CBD5E1`.\n- **Accent Action**: Background `#F59E0B`, label text `#0F172A` (weight 700), border `none`, radius `8px`. Hover: `#D97706`, label `#FFFFFF`.\n\n### Chips & Badges\n- **Verified Enterprise Partner**: Background `#F0FDFA`, text `#0F766E`, border `1px solid #99F6E4`, radius `9999px`, with left-aligned checkmark icon.\n- **Milestone & Placement Status**: Background `#F0FDF4`, text `#15803D`, border `1px solid #BBF7D0`, radius `9999px`, weight 600.\n- **Pending / Action Required**: Background `#FFFBEB`, text `#B45309`, border `1px solid #FDE68A`, radius `9999px`.\n- **Category / Skill Tags**: Background `#F1F5F9`, text `#475569`, border `1px solid #E2E8F0`, radius `4px`, font `Inter` 12px.\n\n### Cards & Module Architecture\n- **Structure**: Surface `#FFFFFF`, border `1px solid #E2E8F0`, corner radius `8px` or `12px`, internal padding `24px`.\n- **Trajectory Card Variant**: Features an authoritative top border accent (`3px solid #0E7490` or `#123C69`) denoting institutional program specialization, with placement velocity figures highlighted in display sizing.\n\n### Input Fields & Controls\n- **Text Inputs**: Height `42px`, background `#FFFFFF`, border `1px solid #E2E8F0`, radius `8px`, text `#0F172A`, placeholder `#94A3B8`. Active focus: border `#0E7490`, shadow ring `0 0 0 3px rgba(14, 116, 144, 0.15)`.\n- **Checkboxes & Radios**: Size `18px`, border `1.5px solid #CBD5E1`, radius `4px` (checkbox) / `50%` (radio). Checked state: fill `#123C69`, check indicator `#FFFFFF`.\n\n### Domain-Specific Specialized Patterns\n- **National Verification Seal**: Circular badge container pairing `#123C69` deep blue micro-ribbon with `#16A34A` verified micro-check and serial tracking ID in `JetBrains Mono` or tabular `Inter`.\n- **Upskilling Trajectory Bar**: Track background `#E2E8F0` (height `8px`, radius `4px`), filled with `#0E7490` graduating into `#16A34A` when candidate hits placement threshold.",
+      "colorVariant": "FIDELITY",
+      "overridePrimaryColor": "#123c69",
+      "overrideSecondaryColor": "#0e7490",
+      "overrideTertiaryColor": "#f59e0b",
+      "overrideNeutralColor": "#475569",
+      "spacingScale": 2,
+      "typography": {
+        "headline-xl": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.02em"
+        },
+        "label-lg": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "20px",
+          "letterSpacing": "0.01em"
+        },
+        "headline-sm": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "26px",
+          "letterSpacing": "0em"
+        },
+        "display-lg-mobile": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "32px",
+          "fontWeight": "800",
+          "lineHeight": "40px",
+          "letterSpacing": "-0.02em"
+        },
+        "label-caps": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "lineHeight": "16px",
+          "letterSpacing": "0.06em"
+        },
+        "body-lg": {
+          "fontFamily": "Inter",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "28px"
+        },
+        "label-md": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "16px",
+          "letterSpacing": "0.02em"
+        },
+        "body-md": {
+          "fontFamily": "Inter",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px"
+        },
+        "headline-lg": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "28px",
+          "fontWeight": "700",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.015em"
+        },
+        "display-lg": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "48px",
+          "fontWeight": "800",
+          "lineHeight": "56px",
+          "letterSpacing": "-0.02em"
+        },
+        "headline-md": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "22px",
+          "fontWeight": "600",
+          "lineHeight": "30px",
+          "letterSpacing": "-0.01em"
+        },
+        "headline-xl-mobile": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "lineHeight": "34px",
+          "letterSpacing": "-0.01em"
+        },
+        "body-sm": {
+          "fontFamily": "Inter",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "20px"
+        }
+      },
+      "spacing": {
+        "space-3xl": "4rem",
+        "gutter-desktop": "1.5rem",
+        "space-xl": "2rem",
+        "space-xxs": "0.25rem",
+        "space-2xl": "3rem",
+        "space-lg": "1.5rem",
+        "space-xs": "0.5rem",
+        "container-max": "80rem",
+        "gutter-mobile": "1rem",
+        "space-md": "1rem",
+        "space-sm": "0.75rem"
+      },
+      "headlineFontFamily": "Plus Jakarta Sans",
+      "bodyFontFamily": "Inter",
+      "labelFontFamily": "Plus Jakarta Sans"
+    },
+    "screenInstances": [
+      {
+        "id": "13e85eb156b54d619136f610f7f08720",
+        "sourceScreen": "projects/15141067284103482666/screens/13e85eb156b54d619136f610f7f08720",
+        "x": 576,
+        "y": 19855,
+        "width": 1280,
+        "height": 3023
+      },
+      {
+        "id": "1ed2e14285b84b39b8aa8874bdd5fdd5",
+        "sourceScreen": "projects/15141067284103482666/screens/1ed2e14285b84b39b8aa8874bdd5fdd5",
+        "y": 7100,
+        "width": 1280,
+        "height": 4299
+      },
+      {
+        "id": "2860986fd7174abd8d99f29c91675721",
+        "sourceScreen": "projects/15141067284103482666/screens/2860986fd7174abd8d99f29c91675721",
+        "y": 11654,
+        "width": 1280,
+        "height": 2000
+      },
+      {
+        "id": "41d1db17cab14388a1aade6fc72048fa",
+        "sourceScreen": "projects/15141067284103482666/screens/41d1db17cab14388a1aade6fc72048fa",
+        "x": 1024,
+        "width": 512,
+        "height": 128
+      },
+      {
+        "id": "476d90353e76498dbf3722d02751e6c9",
+        "sourceScreen": "projects/15141067284103482666/screens/476d90353e76498dbf3722d02751e6c9",
+        "x": 1344,
+        "y": 16378,
+        "width": 1280,
+        "height": 1734
+      },
+      {
+        "id": "4e0f7848bca54d9bbfb53f846caa05c4",
+        "sourceScreen": "projects/15141067284103482666/screens/4e0f7848bca54d9bbfb53f846caa05c4",
+        "y": 16378,
+        "width": 1280,
+        "height": 3220
+      },
+      {
+        "id": "53026898ab2e4aa7b4b97a46a3a0e3ac",
+        "sourceScreen": "projects/15141067284103482666/screens/53026898ab2e4aa7b4b97a46a3a0e3ac",
+        "x": 3071,
+        "y": 948,
+        "width": 1280,
+        "height": 1024
+      },
+      {
+        "id": "5bed930a903b4a96a6d71fcf89df5692",
+        "sourceScreen": "projects/15141067284103482666/screens/5bed930a903b4a96a6d71fcf89df5692",
+        "y": 25768,
+        "width": 1280,
+        "height": 2259
+      },
+      {
+        "id": "86827096e0ea407c9f9986cdb985f841",
+        "sourceScreen": "projects/15141067284103482666/screens/86827096e0ea407c9f9986cdb985f841",
+        "y": 19855,
+        "width": 512,
+        "height": 512
+      },
+      {
+        "id": "assets_21a30074edd540c38e48256686828a84",
+        "width": 960,
+        "height": 540,
+        "sourceAsset": "assets/21a30074edd540c38e48256686828a84",
+        "type": "DESIGN_SYSTEM_INSTANCE"
+      },
+      {
+        "id": "d1764e4731d447eea066dd9b2958130e",
+        "sourceScreen": "projects/15141067284103482666/screens/d1764e4731d447eea066dd9b2958130e",
+        "y": 23134,
+        "width": 1280,
+        "height": 2378
+      },
+      {
+        "id": "dc4ad23646e349e39e6291bbf8aa9bf9",
+        "sourceScreen": "projects/15141067284103482666/screens/dc4ad23646e349e39e6291bbf8aa9bf9",
+        "y": 13911,
+        "width": 1280,
+        "height": 2212
+      },
+      {
+        "id": "fc0d8b1ee1ce4154ac55a0244f1b4b75",
+        "sourceScreen": "projects/15141067284103482666/screens/fc0d8b1ee1ce4154ac55a0244f1b4b75",
+        "x": 1727,
+        "y": 948,
+        "width": 1280,
+        "height": 5896
+      }
+    ],
+    "metadata": {
+      "userRole": "OWNER"
+    }
+  },
+  "screens": [
+    {
+      "name": "projects/15141067284103482666/screens/53026898ab2e4aa7b4b97a46a3a0e3ac",
+      "title": "NIPUN National Placement and Upskilling Network",
+      "screenshot": {},
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/53026898ab2e4aa7b4b97a46a3a0e3ac/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjYmIzMjdlNjMwMWVlNGJlZjc1MGEyOWRkEgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "390",
+      "height": "884",
+      "deviceType": "MOBILE"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/13e85eb156b54d619136f610f7f08720",
+      "title": "NIPUN \u2014 Verified Student Portfolio & Public Dossier",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/13e85eb156b54d619136f610f7f08720/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1U2Tr5IaRMZJ3x3kiANtdktumt6ZhKD8bS0q_lCcKDg-3Kk3NNf1IqAvTttGHsMqKUCpXgC6okSbJYXq0hEg06de0iTOeMlzdDKUcgH7S2UvYpRev9PI2JgBwsVfywGiIVAXY6fd22X334JbsbqgM9HE-7gFBZ4VSFkXznY2805_OCFa0XxzwO32JHW7Iszq3wXwzRKq5YlUZloR_LtqSdFzJEmgo_ZLZ0ae5VGb5Q1b8NjpwTni20w04oI"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/13e85eb156b54d619136f610f7f08720/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjNjk2NWI0MjUwODlhZjVkNjQ2MmI2M2I1EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "6138",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/d1764e4731d447eea066dd9b2958130e",
+      "title": "NIPUN \u2014 Institution Admin Placement & Skill Analytics",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/d1764e4731d447eea066dd9b2958130e/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XlXlH_LRl27JhRboQW8BpgLO7FXynyKvzlpnTr5dgQNLKh-nzPboUSvAUJzd-xqBE-QoI8zPhI64jf65pQEa_g0tSNsTgExOHQmZ-Dr-AoX8qXqqQw5Gsp0G1YJ0G3wZENZFq1dTNOiI6zAzAxv-AqadS7Gf5r302YBVmpD9J5K-rmOquhDd4-L5O3kqkQ_YCDs3Cj3O-2OkOiAS5ToAgvKdEc5rw0HyLT2AoS6GljfuLIAGSnGSuxxs__"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/d1764e4731d447eea066dd9b2958130e/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjNzM5OGI4YWYwMmQzZDJlMWI3M2ExZWNkEgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "4838",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/1ed2e14285b84b39b8aa8874bdd5fdd5",
+      "title": "NIPUN \u2014 National Placement & Upskilling Platform Landing Page",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/1ed2e14285b84b39b8aa8874bdd5fdd5/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XKciHDaSdpQNpo1C8VlAjyiIJTysnuyUpK9cHfYBep3JmJCH4COoviyi1c7X-I0aa9HeWbbqSQk059123ASOOQxj_op0oAdU5stQHRyqmdq3l4pg9Bpn4N_UClVQw5ZoRgxnCVfaeD--5rndVJZM8Olr9I6-MMfmgM7x2O0ZBq01Ixk25jGRLHJh81MsqVZYHPNmfA4JGwfKlDBfYoeVoeQJmaCFWziZMH0FIA80N_DgMymBGlWEHiLM_U"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/1ed2e14285b84b39b8aa8874bdd5fdd5/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjM2Q0NmE0ODcwMWI0ZGQzNDVhMjJkZTc5EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "8598",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/dc4ad23646e349e39e6291bbf8aa9bf9",
+      "title": "NIPUN \u2014 Opportunities & Programs Browse",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/dc4ad23646e349e39e6291bbf8aa9bf9/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VoI0HZBw-NnJORy90ryzvlwV6lYvWGPnrxIehQZpHRnDTnsPI3iQafNIHJdmu8Gzh22zVHBe5eKlBlpwtvPgDTE786Prohakj6Dt6jxpKvgs6pd-XHk-ElrhWR_K-gN5E9_-UvpENIFVh8891VoV62nzlyoYJqdT8QyebqDFAJZEwBnDHA4gQtqBc9aj--HeUIbMnoBHrpYjCzvRZ-qteKZFjsWEKz3mJrvWnSJQ8ygBwKuvtk4b17lq8"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/files/14145687081826293497",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjZDZhYjMzZDUwOTM0ZDBmNThjMWExYTFiEgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "4424",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/fc0d8b1ee1ce4154ac55a0244f1b4b75",
+      "title": "NIPUN \u2014 Brand Identity & Design System Specification",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/fc0d8b1ee1ce4154ac55a0244f1b4b75/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X0RDmrNWo-76g8ovsk9WcJxwlvrF6LMg0KgzAVkgnlqmvENT0UqWkN4fmoZukkU2v8pxDi6jdJnM4y7qjEC4lC7A-pkCVIGQfWsDcSbjubeZgV5MxJsUVVtq5j8tsiwXXYVhC2zAMF6Qvbs9i5WfmQpVkAWjExlOBHUWXfqqVpRl9QwQ_Uwgdz9JboAxvKqJYWYQHXDdE1Pi5lJju-uhcNAG1S812qbkuAC6Icp1fHsxg7WLO0ASeYOd0"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/fc0d8b1ee1ce4154ac55a0244f1b4b75/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjMWViOWQyMTgwMWI0ZGQzNDVhMjJkZTc5EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2630",
+      "height": "11792",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/41d1db17cab14388a1aade6fc72048fa",
+      "title": "NIPUN Primary Brand Logo",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/b2d96e845edd83c7f261abea1e1f0008dd61c58a787fa4106bb49c1ad9354a67/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WQwzVhFJlCTjQ-zMUlvhOvCvFaKJ15Uo5f2TI0FR6kBvQT9gr9jbhj8HemarjVZNtymjL-1-svfpH1m4QGlnuitdEp-Pj2uS3meaKp6R76IamtIr6k3A9ohfrYQLN7YHaBwPDU0MBG_vipO-UhgsXAsdY2UQ68Jby8VSIwLbpdKqh9GApix5rM01PGgjIhi5yLfBVfZ6NhCZmFkrJ2lgCGsJyLg6KEBsjhpNmh4hcs38E8gEVSMF3MejRH"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/41d1db17cab14388a1aade6fc72048fa/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjMWFlYjA3MzIwMWI0ZGQzNDVhMjJkZTc5EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "image/svg+xml"
+      },
+      "width": "540",
+      "height": "120"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/476d90353e76498dbf3722d02751e6c9",
+      "title": "NIPUN \u2014 Applicants Pipeline & Candidate Evaluation",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/476d90353e76498dbf3722d02751e6c9/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VoJVvn1auIGvM00UVSSLOd44xxvWjfpheHrkdjV1Pcd3FSoYCyU8Cs3K9JYBQam0zT-t2b8rYNi_i7kXIRSagqDk0UoCjXPWU-0h7JvlxJoq-W-aW8hfLnjyZ4Ivu0tfiZqahqdQEWSW3e5O6XlbjupaE54QHbBr08phLbW2UyoIr1V_ry1wQ3OCrRI2MEdHKuJqKo5M3FpD5j_m6UjCjRNXTMIHLaLg5qvslazMudVhG-XhLKsaPyhD0Y"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/476d90353e76498dbf3722d02751e6c9/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjNjA5MTIzYzQwN2M0ZDFiOGI1MTg4NTg3EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "3468",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/2860986fd7174abd8d99f29c91675721",
+      "title": "NIPUN \u2014 Student Dashboard Overview",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/2860986fd7174abd8d99f29c91675721/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VUakwRJgwrDn87mJqKmnawNQBOkGzClQufHdfnL58pYcUh8FP1rJ2nWHcTncUiDInnmhdof36FJFgaH1FZcxBXLY9z1yoVArfKmqNGmvzu0pKolCdM9s7UtJodaDdE0HzNXqglZHSJKp-hm8mQPRsekBSNyWUmRTogwm542WM85BMI5p1L6bX68Cd5uqsRaB5byWdIXJkjZtHKcGMeheDCIG4dlTpk1TAHEC26hcqpUTT3QNB_f7zyRkvv"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/2860986fd7174abd8d99f29c91675721/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjNDQzMmZhYTIwN2M0ZGVjOTQ2MWE0YTY3EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "4002",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/86827096e0ea407c9f9986cdb985f841",
+      "title": "Professional and confident headshot of a young Indian male engineering graduate in his early 20s, friendly smile, clean studio background with soft natural lighting, modern professional casual attire, crisp high quality portrait photography",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/86827096e0ea407c9f9986cdb985f841/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1U1aucAsCo3QeFTdHjLkncDIM-HWUC7kMp23hB2gCoBsn8UPKL3WBVzqMVy0Lnktm-Ge8L9eXzFonMDzQlTFwusaTHcz0_6F8A4r8gjsQ5hkYUzN_suUCUCuchT_zkefAkLmplzLM-2HHB5WThygYMRp1P9d6ItzEPMMPnx0m8I7kmSGlsrfvbw56o0gK0UH2y6ap4_tRj3MykGFdoqr56JmdvaSLNOEg4S5Icf_eG3lL-L1p6rDL08BGUr"
+      },
+      "htmlCode": {},
+      "width": "1024",
+      "height": "1024"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/4e0f7848bca54d9bbfb53f846caa05c4",
+      "title": "NIPUN \u2014 Post New Opportunity Form",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/4e0f7848bca54d9bbfb53f846caa05c4/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XaMEmix4n_weYWOGI6vkvHGgX2uD39dMxqTylRryeuPlsimIe-k9Id0Azl3mBWgFqv1R3Cf8QVj0Xhcr3tHXPjrb5dcBgSJR_Lq9WVb72zOFfDRv4vN8_xb74DbDU8RFdbIfPOPH-AiMhpwNTI8PymeL4Dth9o5EDu7CP703lr7to4oYUtwWVHr0hK8Rgiw0QyRcPRBv1_ADA8nazx2Pdew6lhNPTC1rlgJ-EQ3pVbUiOjx0R7DhyeH88"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/4e0f7848bca54d9bbfb53f846caa05c4/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjNjAzY2JhODkwMjJkNmFjMjU0MDY5MDk2EgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "6400",
+      "deviceType": "DESKTOP"
+    },
+    {
+      "name": "projects/15141067284103482666/screens/5bed930a903b4a96a6d71fcf89df5692",
+      "title": "NIPUN \u2014 National Institutional Node Directory & Federated Portal Switcher",
+      "screenshot": {
+        "name": "projects/15141067284103482666/screens/5bed930a903b4a96a6d71fcf89df5692/fileEntries/screenshot",
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XNO-M6MwnBOT7hoJ75DRAYusjrv_5SNtG0oUkj1BglvVH4GBdU1lAxPmuQVZBL9VEFf3aJITPp3jsmtcpJPuC3HHPqJrSbH3Xwe2XTyQIssS5tffHn8e7mYIhI_URtPvjNxnQ72iHGqBUu7SONo8OGe81Htfy2fZBsLDIdyb0GbizeikKFm4aGh16F5dwxmbYRD2H9aed_ElwRKvhA-l-Z8WkBPHAlZiJR3FTzbpKCt_QS-zrCWmhGrSf3"
+      },
+      "htmlCode": {
+        "name": "projects/15141067284103482666/screens/5bed930a903b4a96a6d71fcf89df5692/fileEntries/html",
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1YWZjYjk3YzhjZWYwMmQzZDJlMWI3M2ExZWNkEgsSBxDCt5WYhBUYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTE0MTA2NzI4NDEwMzQ4MjY2Ng&filename=&opi=89354086",
+        "mimeType": "text/html"
+      },
+      "width": "2560",
+      "height": "4518",
+      "deviceType": "DESKTOP"
+    }
+  ]
+}

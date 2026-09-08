@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#8fdfff", "outline": "#737780", "error": "#ba1a1a", "background": "#f8f9ff", "inverse-on-surface": "#eaf1ff", "on-error-container": "#93000a", "tertiary-fixed-dim": "#ffb95f", "on-background": "#0d1c2e", "secondary-fixed": "#b9eaff", "on-primary": "#ffffff", "on-tertiary-fixed-variant": "#653e00", "tertiary": "#382000", "on-error": "#ffffff", "secondary": "#006781", "surface-container": "#e6eeff", "on-secondary-fixed": "#001f29", "surface-container-low": "#eff4ff", "on-secondary-container": "#00647d", "inverse-surface": "#233144", "on-tertiary-container": "#e69300", "surface-variant": "#d5e3fc", "on-primary-fixed-variant": "#214875", "primary-container": "#123c69", "tertiary-fixed": "#ffddb8", "primary-fixed-dim": "#a5c8fe", "secondary-fixed-dim": "#81d1f0", "error-container": "#ffdad6", "on-secondary": "#ffffff", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#2a1700", "surface-container-high": "#dce9ff", "surface-tint": "#3c608f", "outline-variant": "#c3c6d0", "on-surface-variant": "#43474f", "surface-bright": "#f8f9ff", "on-surface": "#0d1c2e", "on-primary-container": "#84a7db", "surface-container-lowest": "#ffffff", "on-primary-fixed": "#001c39", "surface": "#f8f9ff", "surface-container-highest": "#d5e3fc", "tertiary-container": "#553400", "inverse-primary": "#a5c8fe", "surface-dim": "#ccdbf3", "primary": "#00264b", "on-secondary-fixed-variant": "#004d62", "primary-fixed": "#d4e3ff" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "container-max": "80rem", "space-3xl": "4rem", "space-xxs": "0.25rem", "space-lg": "1.5rem", "space-2xl": "3rem", "gutter-mobile": "1rem", "gutter-desktop": "1.5rem", "space-xl": "2rem", "space-sm": "0.75rem", "space-md": "1rem", "space-xs": "0.5rem" }, fontFamily: { "label-caps": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"] }, fontSize: { "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-xl-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-0"><img alt="Brand logo. - Primary color: #123c69
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1UfoJTlE-YL4YOFG0z3SJRxGJXcPN9nmwfQCFYGK67Bsf0WigkhNSPrLcW0PJBTbsW0L4Zf9NpFe4vaGdJjb75Eu6g3vxZzH5BHzAwXvfDDgctteDow0kUc5XMYeTliV2AMrRev-t0rTaCq8BDmL3bUGgf7198e8AEf1kF-4MgSaoeXfWwXz97pSuo71ChRDYKpPX27CWXjSYPBRbRA2Bua9zn4zN95JbmEpnlNuRnz5fkGOX8E1U_WB83W"/><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight shrink-0">NIPUN</span><span class="hidden sm:inline-flex items-center px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">Official Public Credential • NSQF Level 7</span></div><div class="flex items-center gap-space-sm shrink-0"><div class="hidden lg:flex items-center gap-space-xxs px-space-sm py-space-xxs rounded-full bg-surface-container-low text-secondary font-label-md text-label-md"><span class="material-symbols-outlined text-secondary text-[16px]">verified</span><span>Verified on National Ledger</span></div><button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-surface-container-low text-on-surface hover:bg-surface-container hover:text-on-surface transition-colors font-label-md text-label-md" type="button"><span class="material-symbols-outlined text-[16px]">content_copy</span><span class="hidden md:inline">Copy Link</span></button><button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container transition-colors font-label-md text-label-md" type="button"><span class="material-symbols-outlined text-[16px]">download</span><span class="hidden sm:inline">Official Dossier (PDF)</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen"><div class="max-w-5xl mx-auto px-gutter-mobile sm:px-gutter-desktop py-space-xl"><div class="flex flex-col w-full gap-space-xl">
+<!-- CANDIDATE IDENTITY CARD -->
+<section class="w-full bg-surface-container-lowest rounded-xl shadow-md p-space-lg sm:p-space-xl relative overflow-hidden">
+<!-- Top Decorative Accent -->
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary via-secondary to-tertiary-fixed-dim"></div>
+<div class="flex flex-col lg:flex-row gap-space-lg lg:gap-space-xl items-start">
+<!-- Profile Photo & Status Indicator -->
+<div class="relative shrink-0 mx-auto lg:mx-0">
+<div class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<img alt="Aryan Dev Sharma portrait" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9T7umRPkey25LrH9PbOp5flQ8myRpRiBl3hbzYPEQFyG4t0k35sAjOgxYW7qEamZJwrfYQgHoBfAcVpNe3rsBgx0MCZ1L1v_kJ89i6zlSRSokGlE5ODmHUQPBYuRjt8Q0c7gfRSotciwNUlYGQ-Th3WtSxDs7H1fqz5-DrTFN_NOjAuHWTPWoAdstew-heT0RbDf57msC6ZQ53jgMneGOM743lob-KTg_Nx64ash8tqDmWLbZFcsKoQ"/>
+</div>
+<!-- Sovereign Verified Seal Overlay -->
+<div class="absolute -bottom-2 -right-2 bg-primary text-on-primary rounded-full p-1.5 shadow-md flex items-center justify-center" title="Sovereign Verified Attestation">
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">verified</span>
+</div>
+</div>
+<!-- Identity Metadata & Narrative -->
+<div class="flex flex-col flex-1 gap-space-sm min-w-0 text-left">
+<!-- Top Institutional Badges -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[13px] text-secondary">workspace_premium</span>
+            AIR 14 • AICTE GATE Benchmark
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[13px] text-secondary">grade</span>
+            CGPA 9.42 / 10.0
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[13px]">verified_user</span>
+            NSQF Level 7 Certified
+          </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded-full bg-surface-container-low text-secondary font-label-caps text-label-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+            Available: July 2025 Placement &amp; H1 Internships
+          </span>
+</div>
+<!-- Name & Headline -->
+<div>
+<h1 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Aryan Dev Sharma</h1>
+<p class="font-headline-sm text-headline-sm text-secondary font-semibold mt-0.5">
+            Distributed Systems &amp; Cloud Reliability Engineer <span class="text-outline font-normal">|</span> Final Year B.Tech CSE, IIT Roorkee
+          </p>
+</div>
+<!-- Bio -->
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Passionate systems engineer focused on high-throughput distributed primitives, resilient consensus protocols, and Linux kernel telemetry via eBPF. Built production-grade service meshes and high-concurrency event brokers benchmarked at 1.2M req/sec. Winner of the National Smart India Hackathon &amp; Tata Consultancy Services Apex Innovation Fellow.
+        </p>
+<!-- Identity Pills Strip -->
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xxs font-label-md text-label-md text-on-surface-variant">
+<a class="inline-flex items-center gap-1 px-space-xs py-1 rounded bg-surface-container text-primary hover:bg-surface-container-high transition-colors" href="mailto:aryan.sharma@alumni.iitr.ac.in">
+<span class="material-symbols-outlined text-[15px]">alternate_email</span>
+<span>aryan.sharma@alumni.iitr.ac.in</span>
+</a>
+<a class="inline-flex items-center gap-1 px-space-xs py-1 rounded bg-surface-container text-primary hover:bg-surface-container-high transition-colors" href="https://github.com/aryandev-s" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">code</span>
+<span>github.com/aryandev-s</span>
+</a>
+<span class="inline-flex items-center gap-1 px-space-xs py-1 rounded bg-surface-container text-on-surface-variant">
+<span class="material-symbols-outlined text-[15px]">badge</span>
+<span>LinkedIn Verified</span>
+</span>
+<span class="inline-flex items-center gap-1 px-space-xs py-1 rounded bg-surface-container-high text-outline font-mono text-[11px]">
+<span class="material-symbols-outlined text-[13px]">tag</span>
+            SHA: #8F92..C1A
+          </span>
+</div>
+<!-- CTA Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs mt-space-xxs">
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Schedule Recruiter Screening</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-all font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[18px]">lock_reset</span>
+<span>Request Cryptographic Attestation</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK HIGHLIGHT TELEMETRY (4-Card Metric Grid) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-xs relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">GCC Parity Index</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">trending_up</span>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary font-extrabold tracking-tight">96%</div>
+<div class="font-label-md text-label-md text-secondary font-semibold">Placement Parity</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Benchmarked against Tier-1 Global Capability Centers</p>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-1 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 96%"></div>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-xs relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Sovereign Registry</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">gavel</span>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary font-extrabold tracking-tight">14</div>
+<div class="font-label-md text-label-md text-secondary font-semibold">NSQF Micro-Credentials</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">100% Tamper-proof cryptographic hashes registered</p>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-1 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 100%"></div>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-xs relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Production Scale</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">cloud_done</span>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary font-extrabold tracking-tight">3</div>
+<div class="font-label-md text-label-md text-secondary font-semibold">Production Capstones</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Deployed, chaos-tested, handling &gt;10k req/sec</p>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-1 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 100%"></div>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-xs relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Percentile Standing</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">analytics</span>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary font-extrabold tracking-tight">Top 1%</div>
+<div class="font-label-md text-label-md text-secondary font-semibold">National Diagnostic</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Algorithms, Systems Architecture, &amp; Concurrency</p>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-1 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 99%"></div>
+</div>
+</div>
+</section>
+<!-- SECTION 1: VERIFIED COMPETENCIES & SKILL CLOUD -->
+<section class="bg-surface-container-lowest rounded-xl p-space-lg sm:p-space-xl shadow-sm flex flex-col gap-space-lg">
+<!-- Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-xs pb-space-xs border-b-0">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Cryptographically Validated Matrix</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-0.5">
+          Verified Competencies &amp; Skill Cloud
+        </h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md text-left sm:text-right">
+        Assessed through automated proctored benchmarks and live Git repository telemetry.
+      </p>
+</div>
+<!-- Categorized Skill Clusters -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Domain 1: Systems & Core Architecture -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="p-1.5 rounded bg-surface-container text-primary material-symbols-outlined text-[20px]">memory</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Systems &amp; Architecture</h3>
+<span class="font-label-caps text-label-caps text-outline">Low-Level &amp; Concurrency Primitives</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Distributed Consensus (Raft/Paxos)</span>
+<span class="px-1 py-0.2 rounded bg-surface-container-high text-[10px] font-bold text-primary">L7</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Go (Golang)</span>
+<span class="px-1 py-0.2 rounded bg-secondary-fixed text-[10px] font-bold text-on-secondary-fixed">Adv</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Rust</span>
+<span class="px-1 py-0.2 rounded bg-surface-container-high text-[10px] font-bold text-outline">Int</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Linux Internals &amp; eBPF</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>gRPC &amp; Protobuf</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>POSIX Concurrency</span>
+</span>
+</div>
+</div>
+<!-- Domain 2: Cloud Native & Infrastructure -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="p-1.5 rounded bg-surface-container text-primary material-symbols-outlined text-[20px]">hub</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Cloud Native &amp; Infra</h3>
+<span class="font-label-caps text-label-caps text-outline">Orchestration &amp; Observability</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Kubernetes Operator SDK</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Docker Containerization</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Terraform / IaC</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Prometheus &amp; OpenTelemetry</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>GitOps &amp; ArgoCD</span>
+</span>
+</div>
+</div>
+<!-- Domain 3: Data Engineering & Storage -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="p-1.5 rounded bg-surface-container text-primary material-symbols-outlined text-[20px]">database</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Data &amp; Storage Engines</h3>
+<span class="font-label-caps text-label-caps text-outline">High-Throughput Streaming &amp; Stores</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>PostgreSQL HA &amp; Sharding</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Apache Kafka Streams</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Redis Distributed Caching</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>Vector Databases &amp; Milvus</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-xs py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[14px]">shield</span>
+<span>LSM-Tree Key-Value Stores</span>
+</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: OFFICIAL CERTIFICATIONS & SOVEREIGN CREDENTIALS -->
+<section class="flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span>National Qualifications Registry</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-0.5">
+          Official Sovereign Certifications
+        </h2>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>SHA256 Immutable Audit Trail</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<!-- Cert 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-primary"></div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps uppercase">
+              NSQF Level 7
+            </span>
+<span class="font-mono text-[11px] text-outline">NIPUN-L7-2024-8841A</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">
+            Enterprise Distributed Systems Architect
+          </h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">
+            Ministry of Skill Development &amp; Higher Education / NIPUN Apex Node
+          </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+            Validates microservices resilience, dynamic sharding, Byzantine fault tolerance, and zero-trust sovereign cloud security postures.
+          </p>
+</div>
+<div class="pt-space-sm border-t-0 flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span class="text-outline">Issued Sep 2024 • Permanent</span>
+<button class="inline-flex items-center gap-1 text-primary hover:text-secondary font-bold transition-colors" type="button">
+<span>Verify Sovereign Hash</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Cert 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-secondary"></div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+              CNCF Certified
+            </span>
+<span class="font-mono text-[11px] text-outline">#CKAD-8921-X</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">
+            Certified Kubernetes Application Developer (CKAD)
+          </h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">
+            Cloud Native Computing Foundation &amp; Linux Foundation
+          </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+            Multi-cluster pod scheduling, ingress controller security, custom resource definitions (CRDs), and persistent storage orchestration.
+          </p>
+</div>
+<div class="pt-space-sm border-t-0 flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span class="text-outline">Jul 2024 – Jul 2027</span>
+<button class="inline-flex items-center gap-1 text-primary hover:text-secondary font-bold transition-colors" type="button">
+<span>Verify LinuxFoundation</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Cert 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-tertiary-fixed-dim"></div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+              Academic Honors
+            </span>
+<span class="font-mono text-[11px] text-outline">Grade A+ (98.4th %ile)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">
+            Advanced Data Systems &amp; Transaction Processing
+          </h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">
+            IIT Roorkee Dept of CSE &amp; TCS Research
+          </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+            Distributed transactions, MVCC concurrency control, two-phase commit mechanisms, and LSM-tree storage engines.
+          </p>
+</div>
+<div class="pt-space-sm border-t-0 flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span class="text-outline">May 2024 • Dept Ranked</span>
+<button class="inline-flex items-center gap-1 text-primary hover:text-secondary font-bold transition-colors" type="button">
+<span>View Transcripts</span>
+<span class="material-symbols-outlined text-[16px]">description</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: FEATURED PRODUCTION PROJECTS -->
+<section class="flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">terminal</span>
+<span>Benchmarked Implementations</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-0.5">
+          Featured Production Systems
+        </h2>
+</div>
+<span class="font-label-md text-label-md text-outline">All projects backed by open telemetry benchmarks &amp; live clusters</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Project 1: KubeMesh-eBPF -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-start justify-between gap-space-lg relative overflow-hidden">
+<div class="flex flex-col gap-space-sm flex-1">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-low text-secondary font-label-caps text-label-caps uppercase">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+              Live Production Demo
+            </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[13px]">star</span>
+              1.4k Stars
+            </span>
+<span class="font-mono text-[11px] text-outline">v2.4.1 Release</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">
+            KubeMesh-eBPF: Zero-Overhead Service Telemetry
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Built a high-performance Linux kernel eBPF probe system monitoring gRPC RPC latency and TCP socket drop rates across 500+ Kubernetes pods with sub-2% CPU overhead. Implemented automated anomaly detection and circuit breaking for high-churn microservices.
+          </p>
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xxs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Go</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">eBPF / BCC</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Kubernetes</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Prometheus</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Grafana</span>
+</div>
+</div>
+<div class="flex md:flex-col items-center sm:items-end justify-between md:justify-start gap-space-xs shrink-0 w-full md:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container transition-all font-label-md text-label-md" href="https://github.com/aryandev-s" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>GitHub Repository ↗</span>
+</a>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Interactive Live Demo ↗</span>
+</button>
+</div>
+</div>
+<!-- Project 2: StrataDB -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-start justify-between gap-space-lg relative overflow-hidden">
+<div class="flex flex-col gap-space-sm flex-1">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+              Distributed Systems Capstone
+            </span>
+<span class="font-mono text-[11px] text-outline">45,000 writes/sec benchmark</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">
+            StrataDB: Distributed Raft Consensus Engine
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Developed an ACID-compliant distributed key-value store in Go implementing the Raft consensus algorithm with dynamic cluster membership changes, log compaction, snapshotting, and leader leases handling 45,000 writes/sec under network partition conditions.
+          </p>
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xxs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Go</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Raft Consensus</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">LevelDB</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">gRPC</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Docker</span>
+</div>
+</div>
+<div class="flex md:flex-col items-center sm:items-end justify-between md:justify-start gap-space-xs shrink-0 w-full md:w-auto">
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+<span>Architecture Whitepaper ↗</span>
+</button>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors font-label-md text-label-md" href="https://github.com/aryandev-s" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>GitHub Repository ↗</span>
+</a>
+</div>
+</div>
+<!-- Project 3: AegisPay -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-start justify-between gap-space-lg relative overflow-hidden">
+<div class="flex flex-col gap-space-sm flex-1">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-space-xxs rounded bg-surface-container-high text-primary font-label-caps text-label-caps uppercase">
+              Financial Tech Specialization
+            </span>
+<span class="font-mono text-[11px] text-outline">12,000 tx/sec throughput</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">
+            AegisPay: High-Throughput Financial Ledger Pipeline
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Engineered an idempotent, double-entry payment processing engine capable of processing 12,000 transactions/second with strict serializability, zero-data-loss Kafka event streams, and PostgreSQL partition pruning.
+          </p>
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xxs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Python/FastAPI</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Apache Kafka</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">PostgreSQL</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Redis</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-md text-label-md">Kubernetes</span>
+</div>
+</div>
+<div class="flex md:flex-col items-center sm:items-end justify-between md:justify-start gap-space-xs shrink-0 w-full md:w-auto">
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span>Capstone Case Study ↗</span>
+</button>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-md py-2 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors font-label-md text-label-md" href="https://github.com/aryandev-s" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span>GitHub Repository ↗</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- RECRUITER INQUIRY & ENDORSEMENT FOOTER CARD -->
+<section class="bg-primary text-on-primary rounded-xl p-space-lg sm:p-space-xl shadow-lg relative overflow-hidden">
+<!-- Subtle architectural background glow -->
+<div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-secondary opacity-20 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row items-center justify-between gap-space-xl relative z-10">
+<div class="flex flex-col gap-space-xs text-center lg:text-left">
+<div class="inline-flex items-center justify-center lg:justify-start gap-space-xs font-label-caps text-label-caps uppercase tracking-wider text-secondary-fixed">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span>Placement Node • IIT Roorkee Liaison</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-primary">
+          Interested in interviewing Aryan for your 2025 cohort?
+        </h2>
+<p class="font-body-md text-body-md text-primary-fixed leading-relaxed max-w-2xl">
+          Aryan is clearing sovereign verification benchmarks with direct institutional backing. Official dossier includes cryptographic transmittals, proctored code logs, and academic references.
+        </p>
+<!-- Stamp of Authenticity -->
+<div class="flex flex-wrap items-center justify-center lg:justify-start gap-space-md pt-space-xs text-[11px] font-mono text-outline-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">format_image_left</span>
+            LEDGER ANCHOR: MSDE-DPI-2024-8841-IITR
+          </span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">verified</span>
+            ROOT HASH: 0x48f92c1a89bf44e
+          </span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row lg:flex-col gap-space-xs w-full lg:w-auto shrink-0">
+<button class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-all font-label-lg text-label-lg shadow-sm font-bold" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download Verified Dossier (PDF)</span>
+</button>
+<button class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded bg-primary-container text-on-primary hover:bg-surface-container-high hover:text-primary transition-all font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[18px]">forum</span>
+<span>Schedule 30-Min Technical Chat</span>
+</button>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-2 rounded text-primary-fixed hover:text-on-primary transition-colors font-label-md text-label-md text-center" href="mailto:placement@iitr.ac.in">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span>Contact Placement Officer at IIT Roorkee</span>
+</a>
+</div>
+</div>
+</section>
+</div></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.02)] py-space-2xl"><div class="max-w-5xl mx-auto px-gutter-mobile sm:px-gutter-desktop flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div class="flex flex-col gap-space-xxs"><span class="font-label-lg text-label-lg text-primary font-bold tracking-tight">National Industry Placement &amp; Upskilling Network</span><span class="font-body-sm text-body-sm text-on-surface-variant">Sovereign Institutional Attainment Registry • Ministry of Skill Development &amp; Entrepreneurship</span><span class="font-label-caps text-label-caps text-outline tracking-wider">LEDGER VERIFICATION: SHA256 • LEVEL 7 VERIFIED RECORD</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-surface-container-low text-secondary font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">shield</span><span>NSQF Certified</span></div><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-surface-container-low text-primary font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">account_balance</span><span>Institutional Trust Mark</span></div></div></div></footer>
+<script src="assets/demo-store.js"></script>
+<script src="assets/demo-banner.js"></script>
+<script src="assets/portfolio-interactive.js"></script>
+<script src="assets/nav-switcher.js"></script>
+</body></html>
