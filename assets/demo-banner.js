@@ -13,8 +13,8 @@
     const currentRole = window.NipunStore.getCurrentRole();
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // Adjust body padding so banner doesn't cover top navigation
-    document.body.style.paddingTop = "48px";
+    // Minimal padding — banner is collapsed by default
+    document.body.style.paddingTop = "4px";
 
     const banner = document.createElement("div");
     banner.id = "nipun-demo-control-banner";
@@ -23,8 +23,9 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 48px;
-      background: #0B1727;
+      height: 4px;
+      overflow: hidden;
+      background: linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%);
       color: #FFFFFF;
       z-index: 99999;
       display: flex;
@@ -36,7 +37,28 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.12);
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
       user-select: none;
+      transition: height 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                  background 0.25s ease,
+                  box-shadow 0.25s ease;
+      cursor: pointer;
     `;
+
+    // Expand on hover
+    banner.addEventListener('mouseenter', () => {
+      banner.style.height = '48px';
+      banner.style.background = '#0B1727';
+      banner.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.45)';
+      document.body.style.paddingTop = '48px';
+    });
+    banner.addEventListener('mouseleave', () => {
+      // Don't collapse if a dropdown is open
+      const dropdown = document.getElementById('nipun-dropdown-menu');
+      if (dropdown && dropdown.style.display === 'block') return;
+      banner.style.height = '4px';
+      banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
+      banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+      document.body.style.paddingTop = '4px';
+    });
 
     const studentUser = window.NipunStore.getStudent();
     const employerUser = window.NipunStore.getEmployer();
@@ -233,6 +255,13 @@
 
     document.addEventListener("click", () => {
       dropdownMenu.style.display = "none";
+      // Collapse banner if mouse is not currently over it
+      if (!banner.matches(':hover')) {
+        banner.style.height = '4px';
+        banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
+        banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+        document.body.style.paddingTop = '4px';
+      }
     });
 
     // Dropdown Actions
