@@ -13,8 +13,31 @@
     const currentRole = window.NipunStore.getCurrentRole();
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // Minimal padding — banner is collapsed by default
-    document.body.style.paddingTop = "4px";
+    // Push the page's fixed header below the demo banner
+    const pageHeader = document.querySelector('header');
+    const pageMain = document.querySelector('main');
+
+    function applyCollapsed() {
+      banner.style.height = '4px';
+      banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
+      banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+      if (pageHeader) pageHeader.style.top = '4px';
+      if (pageMain) pageMain.style.paddingTop = 'calc(4px + 80px)';
+    }
+
+    function applyExpanded() {
+      banner.style.height = '48px';
+      banner.style.background = '#0B1727';
+      banner.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.45)';
+      if (pageHeader) pageHeader.style.top = '48px';
+      if (pageMain) pageMain.style.paddingTop = 'calc(48px + 80px)';
+    }
+
+    // Start collapsed
+    document.body.style.paddingTop = '0';
+    if (pageHeader) pageHeader.style.transition = 'top 0.25s cubic-bezier(0.4, 0, 0.2, 1)';
+    if (pageMain) pageMain.style.transition = 'padding-top 0.25s cubic-bezier(0.4, 0, 0.2, 1)';
+    applyCollapsed();
 
     const banner = document.createElement("div");
     banner.id = "nipun-demo-control-banner";
@@ -45,19 +68,13 @@
 
     // Expand on hover
     banner.addEventListener('mouseenter', () => {
-      banner.style.height = '48px';
-      banner.style.background = '#0B1727';
-      banner.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.45)';
-      document.body.style.paddingTop = '48px';
+      applyExpanded();
     });
     banner.addEventListener('mouseleave', () => {
       // Don't collapse if a dropdown is open
       const dropdown = document.getElementById('nipun-dropdown-menu');
       if (dropdown && dropdown.style.display === 'block') return;
-      banner.style.height = '4px';
-      banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
-      banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
-      document.body.style.paddingTop = '4px';
+      applyCollapsed();
     });
 
     const studentUser = window.NipunStore.getStudent();
@@ -257,10 +274,7 @@
       dropdownMenu.style.display = "none";
       // Collapse banner if mouse is not currently over it
       if (!banner.matches(':hover')) {
-        banner.style.height = '4px';
-        banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
-        banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
-        document.body.style.paddingTop = '4px';
+        applyCollapsed();
       }
     });
 
