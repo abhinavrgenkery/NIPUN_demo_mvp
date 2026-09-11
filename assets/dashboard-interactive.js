@@ -1,4 +1,4 @@
-/**
+﻿/**
  * NIPUN — Student Dashboard Interactive Controller
  */
 
@@ -11,7 +11,7 @@
 
     const student = window.NipunStore.getStudent();
     const apps = window.NipunStore.getApplications();
-    const aaravApp = apps.find((a) => a.candidateId === "usr_student_01");
+    const AryanApp = apps.find((a) => a.candidateId === "usr_student_01");
 
     // 1. Update Readiness Score displays
     const scoreEls = document.querySelectorAll(".text-\\[\\#15803D\\]");
@@ -22,10 +22,10 @@
     });
 
     // 2. Render Live Active Interview / Offer Banner if updated
-    if (aaravApp && (aaravApp.stage === "interview" || aaravApp.stage === "accepted")) {
+    if (AryanApp && (AryanApp.stage === "interview" || AryanApp.stage === "accepted")) {
       const topSection = document.querySelector("main section") || document.querySelector("main");
       if (topSection) {
-        const isOffer = aaravApp.stage === "accepted";
+        const isOffer = AryanApp.stage === "accepted";
         const banner = document.createElement("div");
         banner.className = `w-full p-4 mb-6 rounded-xl ${isOffer ? "bg-[#F0FDF4] border-2 border-[#16A34A]" : "bg-[#EFF6FF] border-2 border-[#1D4ED8]"} shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4`;
         banner.innerHTML = `
@@ -39,11 +39,11 @@
                   ${isOffer ? "🎉 Official Job Offer Extended!" : "🚀 Direct Technical Interview Scheduled!"}
                 </span>
                 <span class="px-2 py-0.5 rounded-full ${isOffer ? "bg-[#DCFCE7] text-[#15803D]" : "bg-[#DBEAFE] text-[#1E40AF]"} font-bold text-[10px] uppercase tracking-wider">
-                  ${aaravApp.company}
+                  ${AryanApp.company}
                 </span>
               </div>
               <p class="text-xs text-slate-700 mt-0.5 font-medium">
-                ${aaravApp.interviewDate || "Scheduled: Tomorrow at 11:30 AM IST (Virtual Technical Panel)"}
+                ${AryanApp.interviewDate || "Scheduled: Tomorrow at 11:30 AM IST (Virtual Technical Panel)"}
               </p>
             </div>
           </div>

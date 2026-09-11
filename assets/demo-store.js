@@ -1,4 +1,4 @@
-/**
+﻿/**
  * NIPUN — National Industry Placement & Upskilling Network
  * Competition Prototype State Engine & Demo Store (localStorage)
  */
@@ -11,7 +11,7 @@
     users: {
       student: {
         id: "usr_student_01",
-        name: "Aarav Sharma",
+        name: "Aryan Sharma",
         avatarText: "AS",
         roll: "21114029",
         college: "Indian Institute of Technology, Delhi",
@@ -132,7 +132,7 @@
         opportunityTitle: "Distributed Systems Reliability Engineer",
         company: "TelcoX Cloud Infrastructure",
         candidateId: "usr_student_01",
-        candidateName: "Aarav Sharma",
+        candidateName: "Aryan Sharma",
         candidateCollege: "IIT Delhi • B.Tech CSE",
         candidateRoll: "21114029",
         candidateMatch: 96,
@@ -211,7 +211,7 @@
       {
         id: "notif_2",
         role: "employer",
-        text: "New application received from Aarav Sharma (IIT Delhi, 96% Match)",
+        text: "New application received from Aryan Sharma (IIT Delhi, 96% Match)",
         time: "1h ago",
         type: "info"
       }

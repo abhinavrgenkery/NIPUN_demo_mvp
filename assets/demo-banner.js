@@ -1,4 +1,4 @@
-/**
+﻿/**
  * NIPUN — National Industry Placement & Upskilling Network
  * Competition Presentation Demo Control Banner
  */
@@ -168,7 +168,7 @@
         <button id="pill-student" class="nipun-demo-btn nipun-role-pill ${currentRole === "student" ? "active" : ""}">
           <span>🎓</span>
           <span>Student</span>
-          <span style="font-size: 10px; opacity: 0.8; font-weight: normal;">(Aarav)</span>
+          <span style="font-size: 10px; opacity: 0.8; font-weight: normal;">(Aryan)</span>
         </button>
 
         <button id="pill-employer" class="nipun-demo-btn nipun-role-pill ${currentRole === "employer" ? "active" : ""}">
@@ -196,11 +196,11 @@
             <div style="padding: 4px 14px; font-size: 10px; font-weight: 700; color: #94A3B8; text-transform: uppercase;">Simulate Live Event</div>
             <a class="nipun-dropdown-item" id="act-interview-invite">
               <span>📅</span>
-              <span>Send Interview Invite to Aarav</span>
+              <span>Send Interview Invite to Aryan</span>
             </a>
             <a class="nipun-dropdown-item" id="act-shortlist">
               <span>📋</span>
-              <span>Shortlist Aarav for TelcoX</span>
+              <span>Shortlist Aryan for TelcoX</span>
             </a>
             <a class="nipun-dropdown-item" id="act-offer">
               <span>🎉</span>
@@ -285,10 +285,10 @@
     // Dropdown Actions
     document.getElementById("act-interview-invite").addEventListener("click", () => {
       const apps = window.NipunStore.getApplications();
-      const aaravApp = apps.find((a) => a.candidateId === "usr_student_01");
-      if (aaravApp) {
+      const AryanApp = apps.find((a) => a.candidateId === "usr_student_01");
+      if (AryanApp) {
         window.NipunStore.updateApplicationStage(
-          aaravApp.id,
+          AryanApp.id,
           "interview",
           "Scheduled: Tomorrow at 11:30 AM IST (Virtual Technical Panel)"
         );
@@ -302,9 +302,9 @@
 
     document.getElementById("act-shortlist").addEventListener("click", () => {
       const apps = window.NipunStore.getApplications();
-      const aaravApp = apps.find((a) => a.candidateId === "usr_student_01");
-      if (aaravApp) {
-        window.NipunStore.updateApplicationStage(aaravApp.id, "shortlisted");
+      const AryanApp = apps.find((a) => a.candidateId === "usr_student_01");
+      if (AryanApp) {
+        window.NipunStore.updateApplicationStage(AryanApp.id, "shortlisted");
         setTimeout(() => {
           if (currentPath === "student-dashboard.html" || currentPath === "applicant-pipeline.html") {
             window.location.reload();
@@ -315,9 +315,9 @@
 
     document.getElementById("act-offer").addEventListener("click", () => {
       const apps = window.NipunStore.getApplications();
-      const aaravApp = apps.find((a) => a.candidateId === "usr_student_01");
-      if (aaravApp) {
-        window.NipunStore.updateApplicationStage(aaravApp.id, "accepted");
+      const AryanApp = apps.find((a) => a.candidateId === "usr_student_01");
+      if (AryanApp) {
+        window.NipunStore.updateApplicationStage(AryanApp.id, "accepted");
         setTimeout(() => {
           if (currentPath === "student-dashboard.html" || currentPath === "applicant-pipeline.html") {
             window.location.reload();
@@ -371,7 +371,7 @@
               <span style="background: #EFF6FF; color: #123C69; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">
                 Distributed Systems Domain
               </span>
-              <span style="color: #64748B; font-size: 12px;">Candidate: Aarav Sharma (IIT Delhi)</span>
+              <span style="color: #64748B; font-size: 12px;">Candidate: Aryan Sharma (IIT Delhi)</span>
             </div>
             <p style="font-size: 14px; font-weight: 600; color: #0F172A; line-height: 1.5; margin-bottom: 16px;">
               Q: Under high write concurrency in an in-memory replicated cluster, how do you prevent split-brain while sustaining linearizable reads?
