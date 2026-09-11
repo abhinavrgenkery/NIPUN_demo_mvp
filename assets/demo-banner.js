@@ -17,27 +17,14 @@
     const pageHeader = document.querySelector('header');
     const pageMain = document.querySelector('main');
 
-    function applyCollapsed() {
-      banner.style.height = '4px';
-      banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
-      banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
-      if (pageHeader) pageHeader.style.top = '4px';
-      if (pageMain) pageMain.style.paddingTop = 'calc(4px + 80px)';
-    }
-
-    function applyExpanded() {
-      banner.style.height = '48px';
-      banner.style.background = '#0B1727';
-      banner.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.45)';
-      if (pageHeader) pageHeader.style.top = '48px';
-      if (pageMain) pageMain.style.paddingTop = 'calc(48px + 80px)';
-    }
-
-    // Start collapsed
+    // Apply smooth transitions to page layout elements
     document.body.style.paddingTop = '0';
     if (pageHeader) pageHeader.style.transition = 'top 0.25s cubic-bezier(0.4, 0, 0.2, 1)';
     if (pageMain) pageMain.style.transition = 'padding-top 0.25s cubic-bezier(0.4, 0, 0.2, 1)';
-    applyCollapsed();
+
+    // Start collapsed — offset header immediately before banner is injected
+    if (pageHeader) pageHeader.style.top = '4px';
+    if (pageMain) pageMain.style.paddingTop = 'calc(4px + 80px)';
 
     const banner = document.createElement("div");
     banner.id = "nipun-demo-control-banner";
@@ -65,6 +52,23 @@
                   box-shadow 0.25s ease;
       cursor: pointer;
     `;
+
+    // Helpers defined here so banner is already declared above
+    function applyCollapsed() {
+      banner.style.height = '4px';
+      banner.style.background = 'linear-gradient(90deg, #0B1727 0%, #0E7490 50%, #0B1727 100%)';
+      banner.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+      if (pageHeader) pageHeader.style.top = '4px';
+      if (pageMain) pageMain.style.paddingTop = 'calc(4px + 80px)';
+    }
+
+    function applyExpanded() {
+      banner.style.height = '48px';
+      banner.style.background = '#0B1727';
+      banner.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.45)';
+      if (pageHeader) pageHeader.style.top = '48px';
+      if (pageMain) pageMain.style.paddingTop = 'calc(48px + 80px)';
+    }
 
     // Expand on hover
     banner.addEventListener('mouseenter', () => {
