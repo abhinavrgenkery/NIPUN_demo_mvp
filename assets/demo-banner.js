@@ -115,6 +115,9 @@
         <span style="color: #94A3B8; font-weight: 500;" class="hidden sm:inline">
           Competition Prototype Mode
         </span>
+        <span style="display: inline-flex; align-items: center; gap: 4px; background: rgba(245, 158, 11, 0.15); color: #FCD34D; padding: 2px 9px; border-radius: 4px; font-weight: 600; font-size: 11px; letter-spacing: 0.03em; border: 1px solid rgba(245, 158, 11, 0.35);" class="hidden sm:inline">
+          Prototype — Illustrative Data
+        </span>
       </div>
 
       <!-- Center: 3 Role Personas -->
